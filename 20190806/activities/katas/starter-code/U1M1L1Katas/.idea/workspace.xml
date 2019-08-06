@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bd2cab7-dfc2-466d-9492-cfa3d8c1add7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../00-hi-neighbor/.idea/00-hi-neighbor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00-hi-neighbor/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00-hi-neighbor/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00-hi-neighbor/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00-hi-neighbor/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00-hi-neighbor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../00-hi-neighbor/HiNeighbor/HiNeighbor (1).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../00-hi-neighbor/solutions/HiNeighbor/HiNeighbor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../00-hi-neighbor/solutions/HiNeighbor/HiNeighbor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -78,8 +69,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="356" />
-    <option name="y" value="190" />
+    <option name="x" value="20" />
+    <option name="y" value="69" />
     <option name="width" value="1420" />
     <option name="height" value="782" />
   </component>
@@ -90,7 +81,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,6 +156,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,9 +306,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="356" y="190" width="1420" height="782" extended-state="0" />
+    <frame x="20" y="69" width="1420" height="782" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25689405" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26052248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,7 +318,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
