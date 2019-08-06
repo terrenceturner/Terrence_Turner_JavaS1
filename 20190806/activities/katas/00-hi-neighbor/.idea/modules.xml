@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/00-hi-neighbor.iml" filepath="$PROJECT_DIR$/.idea/00-hi-neighbor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solutions/HiNeighbor/HiNeighbor.iml" filepath="$PROJECT_DIR$/solutions/HiNeighbor/HiNeighbor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HiNeighbor/HiNeighbor (1).iml" filepath="$PROJECT_DIR$/HiNeighbor/HiNeighbor (1).iml" />
+    </modules>
+  </component>
+</project>
