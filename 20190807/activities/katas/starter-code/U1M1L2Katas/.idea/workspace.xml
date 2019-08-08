@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ed580dd-225f-480b-96d7-71ed0110930d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../in-class/debuggingpractice/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190808/activities/katas/.idea/katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190808/activities/katas/starter-code/U1M1L3Katas/U1M1L3Katas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01-rectangular-paving-company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01-rectangular-paving-company/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01-rectangular-paving-company/starter-code/RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01-rectangular-paving-company/starter-code/RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../in-class/debuggingpractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../in-class/debuggingpractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../in-class/debuggingpractice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../in-class/debuggingpractice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../in-class/debuggingpractice/src/main/java/com/company/DebuggingPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../in-class/debuggingpractice/src/main/java/com/company/DebuggingPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../in-class/debuggingpractice/target/classes/com/company/DebuggingPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../in-class/debuggingpractice/target/classes/com/company/DebuggingPractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../20190808/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../20190808/activities/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -139,8 +134,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
-    <option name="y" value="100" />
+    <option name="x" value="20" />
+    <option name="y" value="69" />
     <option name="width" value="1420" />
     <option name="height" value="782" />
   </component>
@@ -150,7 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,7 +221,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,10 +381,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="100" width="1420" height="782" extended-state="0" />
+    <frame x="20" y="69" width="1420" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26415095" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26777938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
