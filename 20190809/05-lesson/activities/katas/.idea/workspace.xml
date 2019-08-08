@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0b9924f-dfce-44d7-9852-a60fbf1d932b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../04-lesson/activities/katas/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../04-lesson/activities/katas/.idea/katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../04-lesson/activities/katas/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../04-lesson/activities/katas/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../04-lesson/activities/katas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../04-lesson/activities/katas/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../04-lesson/activities/katas/starter-code/RectPavingCompany/RectPavingCompany.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../04-lesson/activities/katas/starter-code/minmaxavg/minmaxavg.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/U1M1L5Katas/U1-M1-L5-katas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190807/activities/01-rectangular-paving-company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190807/activities/01-rectangular-paving-company/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190807/activities/01-rectangular-paving-company/starter-code/RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190807/activities/01-rectangular-paving-company/starter-code/RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190807/activities/01-rectangular-paving-company/starter-code/RectPavingCompany/target/classes/com/company/RectPavingCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190807/activities/01-rectangular-paving-company/starter-code/RectPavingCompany/target/classes/com/company/RectPavingCompany.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190807/activities/katas/starter-code/U1M1L2Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190807/activities/katas/starter-code/U1M1L2Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190808/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190808/activities/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0b9924f-dfce-44d7-9852-a60fbf1d932b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/starter-code/U1M1L5Katas/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="87" />
     <option name="y" value="63" />
     <option name="width" value="1420" />
@@ -278,7 +254,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="63" width="1420" height="782" extended-state="1" />
+    <frame x="87" y="63" width="1420" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
