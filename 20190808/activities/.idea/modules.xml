@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/03-Fizz-Buzz/starter-code/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/03-Fizz-Buzz/starter-code/FizzBuzz/FizzBuzz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-Hi-Lo/starter-code/HiLo/HiLo.iml" filepath="$PROJECT_DIR$/01-Hi-Lo/starter-code/HiLo/HiLo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-How-many-times-to-7/starter-code/HowManyTimesTo7/HiLo (1).iml" filepath="$PROJECT_DIR$/02-How-many-times-to-7/starter-code/HowManyTimesTo7/HiLo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Loan-Calculator/starter-code/LoanCalculator/LoanCalculator.iml" filepath="$PROJECT_DIR$/04-Loan-Calculator/starter-code/LoanCalculator/LoanCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Prime-Finder/starter-code/PrimeFinder/PrimeFinder.iml" filepath="$PROJECT_DIR$/05-Prime-Finder/starter-code/PrimeFinder/PrimeFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/katas/starter-code/U1M1L3Katas/U1M1L3Katas.iml" filepath="$PROJECT_DIR$/katas/starter-code/U1M1L3Katas/U1M1L3Katas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/activities.iml" filepath="$PROJECT_DIR$/.idea/activities.iml" />
+    </modules>
+  </component>
+</project>

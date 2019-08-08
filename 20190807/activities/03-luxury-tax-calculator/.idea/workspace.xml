@@ -2,137 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c64b73ea-f246-49af-848e-d5dc7506b890" name="Default Changelist" comment="completed luxury tax">
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/HiNeighbor/target/classes/META-INF/HiNeighbor (1).kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/HiNeighbor/target/classes/com/company/HiNeighbor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/solutions/MyClass/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/solutions/MyClass/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/solutions/MyClass/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/solutions/MyClass/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/solutions/MyClass/MyClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/solutions/MyClass/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/solutions/MyClass/src/main/java/HelloAndAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/solutions/MyClass/src/main/java/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/solutions/MyClass/target/classes/HelloAndAdd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/00-hi-neighbor/solutions/MyClass/target/classes/MyClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/20190807.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/.idea/01-rectangular-paving-company.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/starter-code/RectPavingCompany/RectPavingCompany.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/starter-code/RectPavingCompany/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/starter-code/RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/starter-code/RectPavingCompany/src/test/java/com/company/RectPavingCompanyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/starter-code/RectPavingCompany/target/classes/com/company/RectPavingCompany.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/starter-code/RectPavingCompany/target/test-classes/com/company/RectPavingCompanyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/starter-code/RectPavingCompany/testfiles/MultipleInputs/input0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/starter-code/RectPavingCompany/testfiles/MultipleInputs/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-rectangular-paving-company/starter-code/RectPavingCompany/testfiles/MultipleInputs/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/.idea/02-registration-form.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/starter-code/CommandLineGram/CommandLineGram.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/starter-code/CommandLineGram/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/starter-code/CommandLineGram/src/main/java/com/company/CommandLineGram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/starter-code/CommandLineGram/src/test/java/com/company/CommandLineGramTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/starter-code/CommandLineGram/target/classes/com/company/CommandLineGram.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/starter-code/CommandLineGram/target/test-classes/com/company/CommandLineGramTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/starter-code/CommandLineGram/testfiles/MultipleInputs/input0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/starter-code/CommandLineGram/testfiles/MultipleInputs/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-registration-form/starter-code/CommandLineGram/testfiles/MultipleInputs/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/03-luxury-tax-calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/LuxuryTaxCalculator/LuxuryTaxCalculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/LuxuryTaxCalculator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/LuxuryTaxCalculator/src/main/java/com/company/LuxuryTaxCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/LuxuryTaxCalculator/src/test/java/com/company/LuxuryTaxCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/LuxuryTaxCalculator/testfiles/MultipleInputs/input0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/LuxuryTaxCalculator/testfiles/MultipleInputs/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/LuxuryTaxCalculator/testfiles/MultipleInputs/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../in-class/debuggingpractice/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../in-class/debuggingpractice/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../in-class/debuggingpractice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../in-class/debuggingpractice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../in-class/debuggingpractice/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../in-class/debuggingpractice/debuggingpractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../in-class/debuggingpractice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../in-class/debuggingpractice/src/main/java/com/company/DebuggingPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../in-class/debuggingpractice/target/classes/com/company/DebuggingPractice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/kata-instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/U1M1L2Katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/main/java/com/company/AddFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/main/java/com/company/AddFiveAndDouble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/main/java/com/company/AddThirteen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/main/java/com/company/AverageThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/main/java/com/company/DoubleAndAddFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/main/java/com/company/MultiplyThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/main/java/com/company/SubtractTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/test/java/com/company/AddFiveAndDoubleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/test/java/com/company/AddFiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/test/java/com/company/AddThirteenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/test/java/com/company/AllKatasTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/test/java/com/company/AverageThreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/test/java/com/company/DoubleAndAddFiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/test/java/com/company/MultiplyThreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/src/test/java/com/company/SubtractTwoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/classes/com/company/AddFive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/classes/com/company/AddFiveAndDouble.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/classes/com/company/AddThirteen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/classes/com/company/AverageThree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/classes/com/company/DoubleAndAddFive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/classes/com/company/MultiplyThree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/classes/com/company/SubtractTwo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/test-classes/com/company/AddFiveAndDoubleTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/test-classes/com/company/AddFiveTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/test-classes/com/company/AddThirteenTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/test-classes/com/company/AllKatasTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/test-classes/com/company/AverageThreeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/test-classes/com/company/DoubleAndAddFiveTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/test-classes/com/company/MultiplyThreeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/target/test-classes/com/company/SubtractTwoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/testfiles/MultipleInputs/input0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/testfiles/MultipleInputs/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/testfiles/MultipleInputs/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/testfiles/SingleInputs/input0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/testfiles/SingleInputs/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/testfiles/SingleInputs/input2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190806/activities/katas/starter-code/U1M1L1Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190806/activities/katas/starter-code/U1M1L1Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/starter-code/U1M1L2Katas/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/starter-code/LuxuryTaxCalculator/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -186,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="19" />
     <option name="y" value="71" />
     <option name="width" value="1420" />
@@ -371,7 +241,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="71" width="1420" height="782" extended-state="1" />
+    <frame x="19" y="71" width="1420" height="782" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -386,7 +257,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3289855" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
