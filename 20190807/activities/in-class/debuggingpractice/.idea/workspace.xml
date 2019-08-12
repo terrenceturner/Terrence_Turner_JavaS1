@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447ffbed-e22e-4054-ac19-f6f572e112cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../U1M1SummativeTurnerTerrence/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/SimpleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190812/activities/katas/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190812/activities/katas/.idea/katas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190812/activities/katas/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190812/activities/katas/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190812/activities/katas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190812/activities/katas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190812/activities/katas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190812/activities/katas/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190812/activities/katas/starter-code/U1M1L6Katas/U1-M1-L6-Katas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../U1-M1-Summative-Turner-Terrence/.idea/U1-M1-Summative-Turner-Terrence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../U1-M1-Summative-Turner-Terrence/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../U1-M1-Summative-Turner-Terrence/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../U1-M1-Summative-Turner-Terrence/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../U1-M1-Summative-Turner-Terrence/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../U1-M1-Summative-Turner-Terrence/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../U1-M1-Summative-Turner-Terrence/U1M1SummativeTurnerTerrence/U1-M1-Summative-Turner-Terrence.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190808/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190808/activities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20190809/04-lesson/activities/katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190809/04-lesson/activities/katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20190809/05-lesson/activities/katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190809/05-lesson/activities/katas/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
+            <state relative-caret-position="149">
               <caret line="106" selection-start-line="106" selection-end-line="106" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,18 +67,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Module4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="178">
               <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SimpleClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="47" selection-end-column="44" />
               <folding>
-                <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,12 +108,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Module4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/SimpleClass.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="75" />
     <option name="width" value="1420" />
     <option name="height" value="782" />
   </component>
@@ -146,8 +169,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.SimpleClass">
     <configuration name="DebuggingPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.DebuggingPractice" />
       <module name="debugging-practice" />
@@ -197,8 +220,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SimpleClass" />
+      <module name="debugging-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleClass" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DebuggingPractice" />
       </list>
@@ -218,10 +255,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="35" width="1420" height="782" extended-state="0" />
+    <frame x="0" y="75" width="1420" height="782" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26052248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26777938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -360,10 +397,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SimpleClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="335">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="47" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -372,15 +409,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Module4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="178">
           <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
           <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

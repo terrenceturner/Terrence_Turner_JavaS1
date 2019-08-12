@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83738217-bcd9-405e-a165-950a1c5eca41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/RectPavingCompany/RectPavingCompany.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/minmaxavg/minmaxavg.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../05-lesson/activities/katas/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../05-lesson/activities/katas/.idea/katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../05-lesson/activities/katas/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../05-lesson/activities/katas/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../05-lesson/activities/katas/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../05-lesson/activities/katas/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../05-lesson/activities/katas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../05-lesson/activities/katas/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../05-lesson/activities/katas/starter-code/U1M1L5Katas/U1-M1-L5-katas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190807/activities/01-rectangular-paving-company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190807/activities/01-rectangular-paving-company/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190807/activities/01-rectangular-paving-company/starter-code/RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190807/activities/01-rectangular-paving-company/starter-code/RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190807/activities/01-rectangular-paving-company/starter-code/RectPavingCompany/target/classes/com/company/RectPavingCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190807/activities/01-rectangular-paving-company/starter-code/RectPavingCompany/target/classes/com/company/RectPavingCompany.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190807/activities/katas/starter-code/U1M1L2Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190807/activities/katas/starter-code/U1M1L2Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190808/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190808/activities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/starter-code/minmaxavg/target/" />
     <ignored path="$PROJECT_DIR$/starter-code/RectPavingCompany/target/" />
@@ -44,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/kata-instructions.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-20" />
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -246,18 +224,32 @@
       <option name="presentableId" value="Default" />
       <updated>1565280252006</updated>
     </task>
+    <task id="LOCAL-00001" summary="completed katas">
+      <created>1565296781737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565296781737</updated>
+    </task>
+    <task id="LOCAL-00002" summary="completed katas">
+      <created>1565296912202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565296912202</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="70" width="1420" height="782" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -266,7 +258,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289855" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -279,6 +271,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed katas" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed katas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -322,7 +318,7 @@
     <entry file="file://$PROJECT_DIR$/kata-instructions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-20" />
+          <first_editor />
           <second_editor />
         </state>
       </provider>
