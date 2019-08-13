@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c90d6530-9163-4c9d-883a-afdaedc5b95f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../20190807/activities/in-class/U1M1SummativeTurnerTerrence/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/SimpleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190812/activities/katas/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190812/activities/katas/.idea/katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190812/activities/katas/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190812/activities/katas/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190812/activities/katas/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190812/activities/katas/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190812/activities/katas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190812/activities/katas/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190812/activities/katas/starter-code/U1M1L6Katas/U1-M1-L6-Katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/U1-M1-Summative-Turner-Terrence.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/U1-M1-Summative-Turner-Terrence.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190809/04-lesson/activities/katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190809/04-lesson/activities/katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190809/05-lesson/activities/katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190809/05-lesson/activities/katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190812/activities/katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190812/activities/katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190812/activities/katas/starter-code/U1M1L6Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20190812/activities/katas/starter-code/U1M1L6Katas/src/main/java/com/company/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="8" />
     <option name="y" value="30" />
     <option name="width" value="1420" />
@@ -155,7 +138,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="30" width="1420" height="782" extended-state="1" />
+    <frame x="8" y="30" width="1420" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532656" />
@@ -168,7 +151,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

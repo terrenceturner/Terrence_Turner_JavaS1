@@ -1,4 +1,4 @@
-package com.com.whileloops;
+package com.whileloops;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -17,7 +17,7 @@ public class HiLoWithLimtiedTries {
         int userGuess = scanner.nextInt();
         int guesses = 1;
 
-        System.out.println(randomNum);
+
         System.out.println("First guess: " + userGuess);
 
         while (userGuess != randomNum){
@@ -25,9 +25,9 @@ public class HiLoWithLimtiedTries {
             guesses++;
 
             if (userGuess < randomNum){
-                System.out.println("Sorry, you are too low.");
+                System.out.println("Sorry, you are too low. Try again");
             } else {
-                System.out.println("Sorry, that guess is too high.");
+                System.out.println("Sorry, that guess is too high. Try again");
             }
 
             userGuess = scanner.nextInt();
@@ -43,8 +43,6 @@ public class HiLoWithLimtiedTries {
         if (userGuess == randomNum){
             System.out.println("You guessed it! What are the odds?!?");
         }
-
-
 
 
     }

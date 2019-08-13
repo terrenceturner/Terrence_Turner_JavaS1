@@ -165,7 +165,7 @@ public class App {
 
             if (fiveArray[i] < 5){
                 fiveLess = fiveArray[i];
-                
+
             }
 
 
