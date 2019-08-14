@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e06a8242-3484-4b1e-b6f4-973596d88f49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/BootCampLearner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/SimpleAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/activities.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/ClassesPractice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/CoffeeMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Microwave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/03-lesson-references-memory-management.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/activities/katas/starter-code/U1M2L3Katas/U1M2L3Katas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/activities/simple-calculator/starter-code/Calculator/Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/code/parameterFun/parameterFun.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/activities.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/CalculatorRefactored/starter-code/Calculator/Calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/ObjectModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/ObjectModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/placeholder">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Radio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/CoffeeMaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding>
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/CoffeeMakerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+              <folding>
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1196#1197#0" expanded="true" />
+                <element signature="e#1241#1242#0" expanded="true" />
+                <element signature="e#1281#1282#0" expanded="true" />
+                <element signature="e#1311#1312#0" expanded="true" />
+                <element signature="e#1337#1338#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1474#1475#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
+                <element signature="e#1571#1572#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/TV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-610">
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding>
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#930#931#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/CarTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="27" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/ComputerMouseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="22" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/AllKatasTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/HouseItems.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/Radio.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/RadioTest.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Radio.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/TV.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/TVTest.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Microwave.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/MicrowaveTest.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/CoffeeMakerTest.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/CoffeeMaker.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/CarTest.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Car.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/ComputerMouseTest.java" />
+        <option value="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/AllKatasTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="95" />
+    <option name="y" value="23" />
+    <option name="width" value="1345" />
+    <option name="height" value="819" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L2Katas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L2Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AllKatasTest">
+    <configuration name="AllKatasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClassesPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AllKatasTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClassesPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.CarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoffeeMakerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClassesPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.CoffeeMakerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerMouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClassesPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ComputerMouseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicrowaveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClassesPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.MicrowaveTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AllKatasTest" />
+        <item itemvalue="JUnit.ComputerMouseTest" />
+        <item itemvalue="JUnit.CarTest" />
+        <item itemvalue="JUnit.CoffeeMakerTest" />
+        <item itemvalue="JUnit.MicrowaveTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e06a8242-3484-4b1e-b6f4-973596d88f49" name="Default Changelist" comment="" />
+      <created>1565711206751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565711206751</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RadioTest - 2019.08.13 at 12h 16m 39s.xml">
+      <configuration name="RadioTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TVTest - 2019.08.13 at 12h 25m 07s.xml">
+      <configuration name="TVTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MicrowaveTest - 2019.08.13 at 12h 39m 41s.xml">
+      <configuration name="MicrowaveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoffeeMakerTest - 2019.08.13 at 12h 46m 44s.xml">
+      <configuration name="CoffeeMakerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoffeeMakerTest - 2019.08.13 at 12h 47m 50s.xml">
+      <configuration name="CoffeeMakerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoffeeMakerTest - 2019.08.13 at 12h 48m 33s.xml">
+      <configuration name="CoffeeMakerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarTest - 2019.08.13 at 12h 55m 08s.xml">
+      <configuration name="CarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComputerMouseTest - 2019.08.13 at 13h 00m 46s.xml">
+      <configuration name="ComputerMouseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllKatasTest - 2019.08.13 at 13h 01m 08s.xml">
+      <configuration name="AllKatasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllKatasTest - 2019.08.13 at 21h 38m 50s.xml">
+      <configuration name="AllKatasTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="95" y="23" width="1345" height="819" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27168074" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32833022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287483" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.24071527" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/UMLDiagrams.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/RadioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/MicrowaveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Microwave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/TVTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/placeholder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Radio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/CoffeeMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/CoffeeMakerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/CarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/ComputerMouseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/AllKatasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/TV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-610">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

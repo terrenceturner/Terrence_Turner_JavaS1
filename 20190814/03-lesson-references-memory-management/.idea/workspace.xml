@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4d20ecd-3f80-48b8-9657-d1b67ead3c6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/BootCampLearner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/SimpleAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/activities.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/ClassesPractice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/CoffeeMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Microwave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/03-lesson-references-memory-management.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/U1M2L3Katas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activities/simple-calculator/starter-code/Calculator/Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/parameterFun/parameterFun.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/activities.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/CalculatorRefactored/starter-code/Calculator/Calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/ObjectModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/ObjectModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/target/" />
+    <ignored path="$PROJECT_DIR$/activities/simple-calculator/starter-code/Calculator/target/" />
+    <ignored path="$PROJECT_DIR$/code/parameterFun/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/test/java/com/company/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-724">
+              <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-634">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activities/katas/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-126" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/TV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/activities/simple-calculator/starter-code/Calculator/src/test/java/com/company/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/activities/simple-calculator/starter-code/Calculator/src/main/java/com/company/Calculator.java" />
+        <option value="$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/TV.java" />
+        <option value="$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/App.java" />
+        <option value="$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/test/java/com/company/AppTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="274" />
+    <option name="y" value="58" />
+    <option name="width" value="1420" />
+    <option name="height" value="782" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L3Katas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L3Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L3Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L3Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L3Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L3Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L3Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M2L3Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="simple-calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="simple-calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="simple-calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="simple-calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="simple-calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="simple-calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03-lesson-references-memory-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03-lesson-references-memory-management" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="simple-calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M2L3Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testMicrowave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M2L3Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AppTest" />
+      <option name="METHOD_NAME" value="testMicrowave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testRadio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M2L3Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AppTest" />
+      <option name="METHOD_NAME" value="testRadio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testTV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M2L3Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AppTest" />
+      <option name="METHOD_NAME" value="testTV" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.AppTest.testMicrowave" />
+        <item itemvalue="JUnit.AppTest.testRadio" />
+        <item itemvalue="JUnit.AppTest.testTV" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4d20ecd-3f80-48b8-9657-d1b67ead3c6f" name="Default Changelist" comment="" />
+      <created>1565716113230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565716113230</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CalculatorTest - 2019.08.13 at 13h 54m 26s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testTV - 2019.08.13 at 19h 10m 32s.xml">
+      <configuration name="AppTest.testTV" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testRadio - 2019.08.13 at 19h 14m 17s.xml">
+      <configuration name="AppTest.testRadio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.08.13 at 21h 39m 49s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="274" y="58" width="1420" height="782" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963716" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289855" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/activities/simple-calculator/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activities/simple-calculator/starter-code/Calculator/src/test/java/com/company/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/parameterFun/src/main/java/com/company/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/parameterFun/src/main/java/com/company/ParameterFun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-125" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-634">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/TV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activities/katas/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-126" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/test/java/com/company/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-724">
+          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activities/simple-calculator/starter-code/Calculator/src/main/java/com/company/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

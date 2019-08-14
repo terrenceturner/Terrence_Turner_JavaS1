@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="662e5992-1306-4d1c-8e80-7b3745144fa6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/BootCampLearner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/SimpleAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/.idea/activities.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/ClassesPractice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/CoffeeMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Microwave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/03-lesson-references-memory-management.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/activities/katas/starter-code/U1M2L3Katas/U1M2L3Katas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/activities/simple-calculator/starter-code/Calculator/Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/code/parameterFun/parameterFun.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/activities.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalculatorRefactored/starter-code/Calculator/Calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/ObjectModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/ObjectModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/CalculatorRefactored/starter-code/Calculator/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalculatorRefactored/starter-code/Calculator/src/main/java/com/company/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CalculatorRefactored/starter-code/Calculator/src/test/java/com/company/CalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalculatorRefactored/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CalculatorRefactored/starter-code/Calculator/src/main/java/com/company/Calculator.java" />
+        <option value="$PROJECT_DIR$/CalculatorRefactored/starter-code/Calculator/src/test/java/com/company/CalculatorTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="70" />
+    <option name="width" value="1420" />
+    <option name="height" value="782" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorRefactored" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorRefactored" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorRefactored" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorRefactored" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorRefactored" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorRefactored" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorRefactored" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorRefactored" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorRefactored" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorRefactored" type="462c0819:PsiDirectoryNode" />
+              <item name="starter-code" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="katas" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="662e5992-1306-4d1c-8e80-7b3745144fa6" name="Default Changelist" comment="" />
+      <created>1565724974381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565724974381</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CalculatorTest - 2019.08.13 at 15h 48m 00s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.08.13 at 21h 39m 22s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="70" width="1420" height="782" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289855" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CalculatorRefactored/starter-code/Calculator/src/main/java/com/company/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorRefactored/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorRefactored/starter-code/Calculator/src/test/java/com/company/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
