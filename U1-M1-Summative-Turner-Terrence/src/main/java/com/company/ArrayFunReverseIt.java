@@ -9,6 +9,8 @@ public class ArrayFunReverseIt {
         int[] otherArray = new int[simpleArray.length];
         int k = 0;
 
+        //Loop through simpleArray starting from index 4 to index 0
+        //Assign simpleArray index 4 to other Array index 0, etc.
         for (int i = simpleArray.length - 1; i > -1; i--){
             otherArray[k] = simpleArray[i];
             k++;

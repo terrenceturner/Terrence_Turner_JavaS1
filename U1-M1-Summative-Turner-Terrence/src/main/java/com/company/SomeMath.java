@@ -3,7 +3,7 @@ package com.company;
 public class SomeMath {
 
 
-// total
+    // total
     public static int total5(int a, int b, int c, int d, int e){
         int sum = a + b + c + d + e;
         return sum;

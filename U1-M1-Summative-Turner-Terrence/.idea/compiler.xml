@@ -9,8 +9,5 @@
         <module name="U1-M1-Summative-Turner-Terrence" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="U1-M1-Summative-Turner-Terrence" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
