@@ -2,44 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee1baa9-145a-4481-bd0c-03c063bc63a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/ArrayFun5Words.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/ArrayFunReverseIt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/ArrayFunUserArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/MonthConverterIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/MonthConverterSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/SomeMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/ValidNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190814/02-lesson-classes-objects/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190814/02-lesson-classes-objects/activities/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190814/03-lesson-references-memory-management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190814/03-lesson-references-memory-management/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190814/04-lesson-class-design/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190814/04-lesson-class-design/activities/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/U1-M1-Summative-Turner-Terrence.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/U1-M1-Summative-Turner-Terrence.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/U1M1SummativeTurnerTerrence.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/src/main/java/com/company/ArrayFun5Words.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/src/main/java/com/company/ArrayFunReverseIt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/src/main/java/com/company/ArrayFunUserArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/src/main/java/com/company/MonthConverterIf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/src/main/java/com/company/MonthConverterSwitch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/src/main/java/com/company/SomeMath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/src/main/java/com/company/ValidNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/target/classes/com/company/ArrayFun5Words.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/target/classes/com/company/ArrayFunReverseIt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/target/classes/com/company/ArrayFunUserArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/target/classes/com/company/MonthConverterIf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/target/classes/com/company/MonthConverterSwitch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/target/classes/com/company/SomeMath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1SummativeTurnerTerrence/target/classes/com/company/ValidNumber.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,11 +16,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -99,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/MonthConverterSwitch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-392">
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="-29">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -108,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SomeMath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
+            <state relative-caret-position="660">
               <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
             </state>
           </provider>
@@ -160,8 +125,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,6 +156,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M1SummativeTurnerTerrence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1-M1-Summative-Turner-Terrence" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,22 +232,26 @@
       <option name="presentableId" value="Default" />
       <updated>1565777775287</updated>
     </task>
+    <task id="LOCAL-00001" summary="Completed">
+      <created>1565778427824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565778427824</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="67" width="1420" height="782" extended-state="0" />
+    <frame x="20" y="67" width="1420" height="782" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963716" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289855" />
@@ -282,15 +259,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -326,7 +311,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SomeMath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
+        <state relative-caret-position="660">
           <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
         </state>
       </provider>
@@ -340,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/MonthConverterSwitch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-392">
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="-29">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>

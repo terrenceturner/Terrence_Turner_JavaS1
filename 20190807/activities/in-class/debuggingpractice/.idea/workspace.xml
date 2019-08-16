@@ -2,52 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447ffbed-e22e-4054-ac19-f6f572e112cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/BootCampLearner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/SimpleAdder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/activities.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/ClassesPractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/CoffeeMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Microwave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/.idea/03-lesson-references-memory-management.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/activities/katas/starter-code/U1M2L3Katas/U1M2L3Katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/activities/simple-calculator/starter-code/Calculator/Calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/code/parameterFun/parameterFun.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/.idea/activities.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/CalculatorRefactored/starter-code/Calculator/Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/GiftCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/NicelyDesignedAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/Architect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/SensitiveDataFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/StaffMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/TeamLead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/interfaces/SecureStorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/interfaces/Storable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/U1M2L7Katas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/src/main/java/com/company/Accord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/src/main/java/com/company/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/src/main/java/com/company/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/src/main/java/com/company/Sedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/src/main/java/com/company/Transmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/katas/starter-code/U1M2L7Katas/src/main/java/com/company/interfaces/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/.idea/shapes-perimeters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/starter-code/ShapesPerimeters/ShapesPerimeters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/abstractapproach/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/abstractapproach/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/abstractapproach/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/abstractapproach/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/concreteapproach/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/concreteapproach/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/concreteapproach/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/07-lesson-inheritance/activities/shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/concreteapproach/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/U1M2L7PBDTerrenceTurner/src/main/java/com/company/BabyBlackJack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190816/U1M2L7PBDTerrenceTurner/src/main/java/com/company/NoticingEvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ObjectModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/ObjectModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20190815/U1M2L5PBDTerrenceTurner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190815/U1M2L5PBDTerrenceTurner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../U1-M1-Summative-Turner-Terrence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../U1-M1-Summative-Turner-Terrence/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="960">
               <caret line="64" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="3" />
             </state>
           </provider>
@@ -75,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/ObjectModule.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-start-column="2" selection-end-line="20" selection-end-column="3" />
+              <caret selection-end-line="20" selection-end-column="3" />
               <folding>
                 <element signature="e#0#394#0" expanded="true" />
               </folding>
@@ -86,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="1575">
               <caret line="106" selection-start-line="106" selection-end-line="106" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,18 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SimpleAdder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="210">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#93#94#0" expanded="true" />
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -119,24 +120,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="433">
               <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-              <folding>
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -144,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SimpleClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="552">
               <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="47" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -156,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Module4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-49">
+            <state relative-caret-position="270">
               <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
@@ -165,14 +148,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/BootCampLearner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="223">
               <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-              <folding>
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -180,7 +166,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="120">
               <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
                 <element signature="e#118#119#0" expanded="true" />
@@ -223,8 +209,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
-    <option name="y" value="105" />
+    <option name="x" value="20" />
+    <option name="y" value="71" />
     <option name="width" value="1420" />
     <option name="height" value="782" />
   </component>
@@ -234,8 +220,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -394,10 +380,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="105" width="1420" height="782" extended-state="0" />
+    <frame x="20" y="71" width="1420" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27866474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28229317" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -536,46 +522,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="960">
+          <caret line="64" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/BootCampLearner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/ObjectModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state>
+          <caret selection-end-line="20" selection-end-column="3" />
           <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#0#394#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SimpleAdder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="1575">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
           <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Module4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="120">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="e#118#119#0" expanded="true" />
@@ -586,7 +569,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SimpleClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
+        <state relative-caret-position="552">
           <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="47" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -594,37 +577,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SimpleAdder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Module4.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/BootCampLearner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="223">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/ObjectModule.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="2" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="64" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -632,24 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

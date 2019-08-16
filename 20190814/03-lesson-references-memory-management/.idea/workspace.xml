@@ -2,52 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4d20ecd-3f80-48b8-9657-d1b67ead3c6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/BootCampLearner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/SimpleAdder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/activities.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/ClassesPractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/CoffeeMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Microwave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/katas/starter-code/U1M2L2Katas/src/main/java/com/company/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/03-lesson-references-memory-management.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/U1M2L3Katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activities/simple-calculator/starter-code/Calculator/Calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/parameterFun/parameterFun.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/activities.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/CalculatorRefactored/starter-code/Calculator/Calculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/ObjectModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/ObjectModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1-M1-Summative-Turner-Terrence/U1M1SummativeTurnerTerrence/.idea/U1M1SummativeTurnerTerrence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1-M1-Summative-Turner-Terrence/U1M1SummativeTurnerTerrence/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1M1SummativeTurnerTerrence/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1M1SummativeTurnerTerrence/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1M1SummativeTurnerTerrence/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1M1SummativeTurnerTerrence/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1M1SummativeTurnerTerrence/U1M1SummativeTurnerTerrence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1M1SummativeTurnerTerrence/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-lesson-classes-objects/activities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-lesson-class-design/activities/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M1-Summative-Turner-Terrence/U1M1SummativeTurnerTerrence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M1-Summative-Turner-Terrence/U1M1SummativeTurnerTerrence/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/target/" />
     <ignored path="$PROJECT_DIR$/activities/simple-calculator/starter-code/Calculator/target/" />
@@ -68,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/test/java/com/company/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-724">
-              <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -76,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="705">
+              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -121,14 +88,14 @@
         <option value="$PROJECT_DIR$/activities/simple-calculator/starter-code/Calculator/src/test/java/com/company/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/activities/simple-calculator/starter-code/Calculator/src/main/java/com/company/Calculator.java" />
         <option value="$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/TV.java" />
-        <option value="$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/App.java" />
         <option value="$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/test/java/com/company/AppTest.java" />
+        <option value="$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/App.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="274" />
-    <option name="y" value="58" />
+    <option name="x" value="26" />
+    <option name="y" value="23" />
     <option name="width" value="1420" />
     <option name="height" value="782" />
   </component>
@@ -454,10 +421,12 @@
     <history-entry file="CalculatorTest - 2019.08.13 at 21h 39m 49s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2019.08.14 at 03h 59m 25s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="274" y="58" width="1420" height="782" extended-state="0" />
-    <editor active="true" />
+    <frame x="26" y="23" width="1420" height="782" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -472,7 +441,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3289855" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -550,7 +519,7 @@
     <entry file="file://$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/test/java/com/company/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-724">
-          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -567,8 +536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/activities/katas/starter-code/U1M2L3Katas/src/main/java/com/company/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        <state relative-caret-position="705">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
         </state>
       </provider>
     </entry>

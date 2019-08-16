@@ -2,52 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06a8242-3484-4b1e-b6f4-973596d88f49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/BootCampLearner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/SimpleAdder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/activities.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/ClassesPractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/CoffeeMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Microwave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/03-lesson-references-memory-management.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/activities/katas/starter-code/U1M2L3Katas/U1M2L3Katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/activities/simple-calculator/starter-code/Calculator/Calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/code/parameterFun/parameterFun.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/activities.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/CalculatorRefactored/starter-code/Calculator/Calculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/ObjectModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/ObjectModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/src/main/java/com/company/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/activities/in-class/debuggingpractice/target/classes/com/company/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-lesson-references-memory-management/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04-lesson-class-design/activities/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1-M1-Summative-Turner-Terrence/U1M1SummativeTurnerTerrence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1-M1-Summative-Turner-Terrence/U1M1SummativeTurnerTerrence/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
+            <state relative-caret-position="1125">
               <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
               <folding>
                 <element signature="e#312#313#0" expanded="true" />
@@ -168,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/TV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-610">
-              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="15">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding>
                 <element signature="e#247#248#0" expanded="true" />
                 <element signature="e#282#283#0" expanded="true" />
@@ -281,6 +239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -383,7 +342,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -507,6 +465,14 @@
       <option name="presentableId" value="Default" />
       <updated>1565711206751</updated>
     </task>
+    <task id="LOCAL-00001" summary="completed katas">
+      <created>1565769740018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565769740018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -543,8 +509,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="95" y="23" width="1345" height="819" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27168074" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27551803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -571,6 +538,10 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed katas" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed katas" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/katas/starter-code/UMLDiagrams.png">
@@ -675,37 +646,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/CarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/ComputerMouseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/AllKatasTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
+        <state relative-caret-position="1125">
           <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
           <folding>
             <element signature="e#312#313#0" expanded="true" />
@@ -748,10 +691,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/CarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/ComputerMouseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/test/java/com/company/AllKatasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/katas/starter-code/U1M2L2Katas/src/main/java/com/company/TV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-610">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="15">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding>
             <element signature="e#247#248#0" expanded="true" />
             <element signature="e#282#283#0" expanded="true" />
