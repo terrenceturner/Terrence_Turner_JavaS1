@@ -1,78 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7510499e-1b02-4397-a046-2469ea34d529" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/GiftCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/NicelyDesignedAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/Architect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/SensitiveDataFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/StaffMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/TeamLead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/interfaces/SecureStorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../20190815/GiftCard/src/main/java/com/company/composition/inheirtance/interfaces/Storable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/U1M2L6Katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/src/main/java/com/company/Basement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/src/main/java/com/company/Bathroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/src/main/java/com/company/Bedroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/src/main/java/com/company/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/src/main/java/com/company/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../06-lesson-composition/activities/katas/U1M2L6Katas/src/main/java/com/company/Patio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/U1M2L7Katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/src/main/java/com/company/Accord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/src/main/java/com/company/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/src/main/java/com/company/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/src/main/java/com/company/Sedan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/src/main/java/com/company/Transmission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L7Katas/src/main/java/com/company/interfaces/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shapes-perimeters.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/ShapesPerimeters/ShapesPerimeters.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/abstractapproach/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/abstractapproach/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/abstractapproach/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/abstractapproach/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/concreteapproach/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/concreteapproach/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/concreteapproach/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/concreteapproach/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U1M2L7PBDTerrenceTurner/src/main/java/com/company/BabyBlackJack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U1M2L7PBDTerrenceTurner/src/main/java/com/company/NoticingEvenNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190814/02-lesson-classes-objects/activities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190814/03-lesson-references-memory-management/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190814/04-lesson-class-design/activities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190815/U1M2L5PBDTerrenceTurner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190815/U1M2L5PBDTerrenceTurner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../U1-M1-Summative-Turner-Terrence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../U1-M1-Summative-Turner-Terrence/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7510499e-1b02-4397-a046-2469ea34d529" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/starter-code/ShapesPerimeters/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -335,6 +264,14 @@
       <option name="presentableId" value="Default" />
       <updated>1565896090601</updated>
     </task>
+    <task id="LOCAL-00001" summary="completed">
+      <created>1565951767024</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565951767024</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -367,6 +304,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/concreteapproach/Triangle.java">

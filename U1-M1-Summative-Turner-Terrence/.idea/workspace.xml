@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee1baa9-145a-4481-bd0c-03c063bc63a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../20190814/02-lesson-classes-objects/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190814/02-lesson-classes-objects/activities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190814/03-lesson-references-memory-management/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190814/03-lesson-references-memory-management/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190814/04-lesson-class-design/activities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190814/04-lesson-class-design/activities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TerrenceTurnerU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190819/U1M2L8PBDTerrenceTurner/src/main/java/com/company/BabyNim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190819/U1M2L8PBDTerrenceTurner/src/main/java/com/company/Nim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/CalculatorObject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/CalculatorObject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/CalculatorObject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/CalculatorObject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/CalculatorObject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/CalculatorObject/src/main/java/com/company/CalculatorObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/ConverterInterface/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/ConverterInterface/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/ConverterInterface/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/ConverterInterface/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/ConverterInterface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/U1-M2-Summative-Turner-Terrence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1-M2-Summative-Turner-Terrence/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190807/activities/in-class/debuggingpractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190816/07-lesson-inheritance/activities/shapes-perimeters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190816/07-lesson-inheritance/activities/shapes-perimeters/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/MonthConverterIf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="660">
+              <caret line="44" column="9" selection-start-line="18" selection-start-column="8" selection-end-line="44" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -64,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/MonthConverterSwitch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="274">
+              <caret line="43" column="46" selection-start-line="14" selection-start-column="8" selection-end-line="54" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -115,7 +137,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="20" />
-    <option name="y" value="67" />
+    <option name="y" value="66" />
     <option name="width" value="1420" />
     <option name="height" value="782" />
   </component>
@@ -125,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -169,10 +190,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -243,9 +266,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="67" width="1420" height="782" extended-state="0" />
+    <frame x="20" y="66" width="1420" height="782" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26052248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -280,13 +304,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/MonthConverterIf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/ArrayFunUserArray.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -323,10 +340,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/MonthConverterIf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="9" selection-start-line="18" selection-start-column="8" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/MonthConverterSwitch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="274">
+          <caret line="43" column="46" selection-start-line="14" selection-start-column="8" selection-end-line="54" selection-end-column="9" />
         </state>
       </provider>
     </entry>

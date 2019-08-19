@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RPGInheritance" />
+        <module name="CustomerComposition" />
+        <module name="IceCreamClassDesign" />
+        <module name="ConverterInterface" />
+        <module name="CalculatorObject" />
+        <module name="U1-M2-Summative-Turner-Terrence" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
