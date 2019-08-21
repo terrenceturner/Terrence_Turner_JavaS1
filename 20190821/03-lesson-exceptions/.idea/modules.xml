@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/03-lesson-exceptions.iml" filepath="$PROJECT_DIR$/.idea/03-lesson-exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activities/katas/starter-code/U1M3L3Katas/U1M3L3Katas.iml" filepath="$PROJECT_DIR$/activities/katas/starter-code/U1M3L3Katas/U1M3L3Katas.iml" />
+    </modules>
+  </component>
+</project>
