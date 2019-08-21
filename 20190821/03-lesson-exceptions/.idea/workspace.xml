@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba58c49a-b4ba-46a6-baf9-5795be028e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/03-lesson-exceptions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activities/katas/starter-code/U1M3L3Katas/U1M3L3Katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-structured-data-files/activities/katas/starter-code/U1M3L4Katas/src/main/java/com/company/CSVWriteAndRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-structured-data-files/activities/katas/starter-code/U1M3L4Katas/src/main/java/com/company/ComputerReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-structured-data-files/activities/katas/starter-code/U1M3L4Katas/src/main/java/com/company/Computers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-structured-data-files/activities/katas/starter-code/U1M3L4Katas/src/main/java/com/company/JSONWriteAndRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-structured-data-files/activities/katas/starter-code/U1M3L4Katas/src/main/java/com/company/PhoneReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-structured-data-files/activities/katas/starter-code/U1M3L4Katas/src/main/java/com/company/Phones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-structured-data-files/activities/katas/starter-code/U1M3L4Katas/src/main/java/com/company/TelevisionReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-structured-data-files/activities/katas/starter-code/U1M3L4Katas/src/main/java/com/company/Televisions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04-lesson-structured-data-files/activities/katas/starter-code/U1M3L4Katas/src/main/java/com/company/XMLWriteAndRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190820/02-lesson-maps/activities/katas/starter-code/U1M3L2Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/02-lesson-maps/activities/katas/starter-code/U1M3L2Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190820/02-lesson-maps/activities/largest-cities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/02-lesson-maps/activities/largest-cities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Turner-Terrence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Turner-Terrence/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterIf.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/activities/katas/starter-code/U1M3L3Katas/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="20" />
     <option name="y" value="69" />
     <option name="width" value="1420" />
@@ -350,7 +334,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="69" width="1420" height="782" extended-state="1" />
+    <frame x="20" y="69" width="1420" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532656" />
@@ -362,7 +346,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

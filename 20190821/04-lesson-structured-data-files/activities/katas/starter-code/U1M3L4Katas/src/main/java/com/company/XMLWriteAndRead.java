@@ -33,6 +33,8 @@ public class XMLWriteAndRead {
 
             writer = new PrintWriter(new FileWriter("car.xml"));
             writer.println(xmlString);
+            writer.flush();
+            writer.close();
 
             for (Car cars: carList){
                 System.out.println(cars.getMake());

@@ -24,7 +24,14 @@ public class CSVWriteAndRead {
 
 
         try {
-            List<Car> cars = new CsvToBeanBuilder<Car>( new FileReader("/Users/terrenceturner/Desktop/Terrence_Turner_JavaS1/20190821/04-lesson-structured-data-files/activities/katas/starter-code/U1M3L4Katas/car.csv"))
+
+            Writer writer = new FileWriter("new_cars_file.csv");
+            StatefulBeanToCsv beanToCsv = new StatefulBeanToCsvBuilder(writer).build();
+            beanToCsv.write(carList);
+            writer.flush();
+            writer.close();
+
+            List<Car> cars = new CsvToBeanBuilder<Car>( new FileReader("car.csv"))
                     .withType(Car.class).build().parse();
 
             for (Car car: carList) {
@@ -34,12 +41,9 @@ public class CSVWriteAndRead {
                 System.out.println(car.getColor());
                 System.out.println(car.getYear());
 
-
-                Writer writer = new FileWriter("new_cars_file.csv");
-                StatefulBeanToCsv beanToCsv = new StatefulBeanToCsvBuilder(writer).build();
-                beanToCsv.write(carList);
-                writer.close();
             }
+
+
 
 
         } catch (FileNotFoundException e) {

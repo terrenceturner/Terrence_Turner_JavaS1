@@ -37,6 +37,8 @@ public class JSONWriteAndRead {
            writer = new PrintWriter(new FileWriter("car.json"));
 
            writer.println(jsonCarList);
+           writer.flush();
+           writer.close();
 
 
 
