@@ -77,9 +77,7 @@ public class CarList {
                 exit = userDelete.toUpperCase().charAt(0);
             }
 
-            for (Car car : cars) {
-                System.out.println(car);
-            }
+            
 
         } catch (InputMismatchException e) {
 
