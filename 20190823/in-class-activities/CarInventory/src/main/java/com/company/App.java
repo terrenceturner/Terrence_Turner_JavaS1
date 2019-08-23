@@ -19,14 +19,14 @@ public class App {
 
             //Menu Options
             System.out.println("\nChoose an option below: ");
-            System.out.println("ADD = Add Car to Inventory | DEL = Delete a Car from Inventory | SHOW = Show all cars in Inventory ");
-            System.out.println("MAKE = Search by make | MODEL = Search by model | YEAR = Search cars by year | COLOR = Search by color");
-            System.out.println("MILES = Search for cars with miles less than entered ");
+            System.out.println("ADD = Add Car to Inventory | DEL = Delete a Car from Inventory | SHOW = Show all cars in Inventory | MAKE = Search by make ");
+            System.out.println("MODEL = Search by model | YEAR = Search cars by year | COLOR = Search by color | MILES = Search for cars with miles less than entered ");
             System.out.println("QUIT = Quit the Program");
             System.out.print("> ");
 
-            String choice = scan.next().toUpperCase();
-            switch (choice) {
+            String userChoice = scan.next().toUpperCase();
+
+            switch (userChoice) {
                 case "ADD":
                     CarList.addCar(cars);
                     break;

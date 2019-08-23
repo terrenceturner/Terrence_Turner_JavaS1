@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ab307ce-3d8f-4590-add9-e41ed0fbbb8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/U1M3L6PBD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/src/main/java/com/company/LargestValueArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/src/main/java/com/company/LocatingLargestValueArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/src/main/java/com/company/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/src/main/java/com/company/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/src/main/java/com/company/CarList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../20190821/04-lesson-structured-data-files/activities/katas/starter-code/U1M3L5Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../20190821/04-lesson-structured-data-files/activities/katas/starter-code/U1M3L5Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M3L5Katas/target/classes/com/company/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/U1M3L5Katas/target/classes/com/company/App$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M3L5Katas/target/classes/com/company/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/U1M3L5Katas/target/classes/com/company/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M1-Summative-Turner-Terrence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M1-Summative-Turner-Terrence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterIf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/target/classes/com/company/ConverterIf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/target/classes/com/company/ConverterIf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/target/classes/com/company/ConverterSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/target/classes/com/company/ConverterSwitch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Apprentice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/JuniorFarmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Constable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Constable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Farmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/JuniorConstable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/JuniorConstable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/MasterFarmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/MasterFarmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Ronin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Ronin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/SeniorConstable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/SeniorConstable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Shogun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Shogun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Warrior.java" afterDir="false" />
-    </list>
+    <list default="true" id="7ab307ce-3d8f-4590-add9-e41ed0fbbb8a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/U1M3L5Katas/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +26,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="328">
               <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="45" selection-end-column="78" />
             </state>
           </provider>
@@ -94,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="20" />
     <option name="y" value="70" />
     <option name="width" value="1420" />
@@ -207,7 +171,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="70" width="1420" height="782" extended-state="1" />
+    <frame x="20" y="70" width="1420" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26415095" />
@@ -219,7 +183,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -258,7 +222,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="328">
           <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="45" selection-end-column="78" />
         </state>
       </provider>

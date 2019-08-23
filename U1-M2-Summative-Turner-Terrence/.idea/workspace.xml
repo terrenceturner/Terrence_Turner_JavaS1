@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1966842a-3c1e-47ed-890c-11aafd7efc09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/U1M3L6PBD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/src/main/java/com/company/LargestValueArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/src/main/java/com/company/LocatingLargestValueArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190823/in-class-activities/CarInventory/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190823/in-class-activities/CarInventory/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190823/in-class-activities/CarInventory/src/main/java/com/company/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190823/in-class-activities/CarInventory/src/main/java/com/company/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20190823/in-class-activities/CarInventory/src/main/java/com/company/CarList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190821/04-lesson-structured-data-files/activities/katas/starter-code/U1M3L5Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190821/04-lesson-structured-data-files/activities/katas/starter-code/U1M3L5Katas/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20190822/05-lesson-lambdas-streams/activities/katas/starter-code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190822/05-lesson-lambdas-streams/activities/katas/starter-code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190822/05-lesson-lambdas-streams/activities/katas/starter-code/U1M3L5Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20190822/05-lesson-lambdas-streams/activities/katas/starter-code/U1M3L5Katas/src/main/java/com/company/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190822/05-lesson-lambdas-streams/activities/katas/starter-code/U1M3L5Katas/target/classes/com/company/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../20190822/05-lesson-lambdas-streams/activities/katas/starter-code/U1M3L5Katas/target/classes/com/company/App$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190822/05-lesson-lambdas-streams/activities/katas/starter-code/U1M3L5Katas/target/classes/com/company/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../20190822/05-lesson-lambdas-streams/activities/katas/starter-code/U1M3L5Katas/target/classes/com/company/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1-M1-Summative-Turner-Terrence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U1-M1-Summative-Turner-Terrence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConverterInterface/src/main/java/com/company/ConverterIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConverterInterface/src/main/java/com/company/ConverterIf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConverterInterface/src/main/java/com/company/ConverterSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConverterInterface/src/main/java/com/company/ConverterSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConverterInterface/target/classes/com/company/ConverterIf.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConverterInterface/target/classes/com/company/ConverterIf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConverterInterface/target/classes/com/company/ConverterSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConverterInterface/target/classes/com/company/ConverterSwitch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/Apprentice.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/JuniorFarmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/Constable.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/Constable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/Farmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/JuniorConstable.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/JuniorConstable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/MasterFarmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/MasterFarmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/Ronin.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/Ronin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/SeniorConstable.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/SeniorConstable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/Shogun.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/Shogun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/RPGInheritance/src/main/java/com/company/Warrior.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="20" />
     <option name="y" value="68" />
     <option name="width" value="1420" />
@@ -186,8 +152,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="68" width="1420" height="782" extended-state="1" />
-    <editor active="true" />
+    <frame x="20" y="68" width="1420" height="782" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26052248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -198,7 +163,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

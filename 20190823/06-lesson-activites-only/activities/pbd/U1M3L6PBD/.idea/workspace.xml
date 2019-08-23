@@ -91,7 +91,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="121" />
+    <option name="x" value="20" />
     <option name="y" value="31" />
     <option name="width" value="1420" />
     <option name="height" value="782" />
@@ -137,6 +137,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -154,7 +155,7 @@
   <component name="RunManager" selected="Application.LocatingLargestValueArrayList">
     <configuration name="LargestValueArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.LargestValueArrayList" />
-      <module name="U1M3L6PBD" />
+      <module name="U1M3L6PBDTerrenceTurner" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -167,7 +168,7 @@
     </configuration>
     <configuration name="LocatingLargestValueArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.LocatingLargestValueArrayList" />
-      <module name="U1M3L6PBD" />
+      <module name="U1M3L6PBDTerrenceTurner" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
