@@ -32,7 +32,7 @@ public class ConverterIf implements Converter {
         } else {
             System.out.println("You have entered an invalid number. You must enter a number between 1 and 12. Goodbye.");
         }
-        return null ;
+        return "";
     }
 
     @Override
@@ -56,6 +56,7 @@ public class ConverterIf implements Converter {
             System.out.println("You have entered an invalid number. You must enter a number between 1 and 7. Goodbye.");
         }
 
-        return null;
+        return "";
+
     }
 }

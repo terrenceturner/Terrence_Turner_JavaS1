@@ -47,7 +47,7 @@ public class ConverterSwitch implements Converter {
 
         }
 
-        return null;
+        return "";
     }
 
     @Override
@@ -79,7 +79,7 @@ public class ConverterSwitch implements Converter {
                 System.out.println("You have entered an invalid number. You must enter a number between 1 and 12. Goodbye.");
         }
 
+        return "";
 
-        return null;
     }
 }

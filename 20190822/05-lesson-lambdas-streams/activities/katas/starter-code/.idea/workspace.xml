@@ -2,58 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ab307ce-3d8f-4590-add9-e41ed0fbbb8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../../20190821/04-lesson-structured-data-files/activities/katas/starter-code/U1M3L5Katas/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../20190821/04-lesson-structured-data-files/activities/katas/starter-code/U1M3L5Katas/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_opencsv_opencsv_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_opencsv_opencsv_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/starter-code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U1M3L5Katas/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U1M3L5Katas/U1M3L5Katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/Televisions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pbd/U1M2L1PBDTerrenceTurner/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pbd/U1M2L1PBDTerrenceTurner/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pbd/U1M2L1PBDTerrenceTurner/src/main/java/com/company/ArrayListThereOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pbd/U1M2L1PBDTerrenceTurner/src/main/java/com/company/BasicArrayLists2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pbd/U1M2L1PBDTerrenceTurner/src/main/java/com/company/BasicArrayLists3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pbd/U1M2L1PBDTerrenceTurner/src/main/java/com/company/CopyingArrayLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pbd/U1M2L1PBDTerrenceTurner/src/main/java/com/company/FindingAValueInAnArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pbd/U1M2L1PBDTerrenceTurner/src/main/java/com/company/WhereIsIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/U1M3L6PBD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/src/main/java/com/company/LargestValueArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/src/main/java/com/company/LocatingLargestValueArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/src/main/java/com/company/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/src/main/java/com/company/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/src/main/java/com/company/CarList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../20190821/04-lesson-structured-data-files/activities/katas/starter-code/U1M3L5Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../20190821/04-lesson-structured-data-files/activities/katas/starter-code/U1M3L5Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U1M3L5Katas/target/classes/com/company/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/U1M3L5Katas/target/classes/com/company/App$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U1M3L5Katas/target/classes/com/company/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/U1M3L5Katas/target/classes/com/company/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M1-Summative-Turner-Terrence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M1-Summative-Turner-Terrence/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterIf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/src/main/java/com/company/ConverterSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/target/classes/com/company/ConverterIf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/target/classes/com/company/ConverterIf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/target/classes/com/company/ConverterSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/ConverterInterface/target/classes/com/company/ConverterSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Apprentice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/JuniorFarmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Constable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Constable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Farmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/JuniorConstable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/JuniorConstable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/MasterFarmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/MasterFarmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Ronin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Ronin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/SeniorConstable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/SeniorConstable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Shogun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Shogun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/RPGInheritance/src/main/java/com/company/Warrior.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/U1M3L5Katas/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,21 +46,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/U1M3L5Katas/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="43" column="62" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
+            <state relative-caret-position="202">
+              <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="45" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -90,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/Televisions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
+            <state relative-caret-position="75">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
@@ -109,8 +95,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="5" />
-    <option name="y" value="67" />
+    <option name="x" value="20" />
+    <option name="y" value="70" />
     <option name="width" value="1420" />
     <option name="height" value="782" />
   </component>
@@ -221,10 +207,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="67" width="1420" height="782" extended-state="1" />
+    <frame x="20" y="70" width="1420" height="782" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26415095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -233,7 +219,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289855" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -241,7 +227,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289855" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -254,22 +240,26 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/U1M3L5Katas/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/televisions.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/Televisions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
+        <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="43" column="62" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
+        <state relative-caret-position="202">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="45" selection-end-column="78" />
         </state>
       </provider>
     </entry>

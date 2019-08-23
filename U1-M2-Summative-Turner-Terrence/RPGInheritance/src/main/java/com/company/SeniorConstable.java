@@ -8,12 +8,10 @@ public class SeniorConstable extends JuniorConstable {
 
 
     public SeniorConstable(String name, int strength, int health, int stamina, int speed, int attackPower, String jurisdiction,
-                           String weaponType, String weaponPower, int weapons, String carType, boolean specOpsGear) {
-        super(name, strength, health, stamina, speed, attackPower, jurisdiction, weaponType, weaponPower);
+                           String gear, String flashlight, String weaponType, String weaponPower, int weapons, String carType, boolean specOpsGear) {
+        super(name, strength, health, stamina, speed, attackPower, jurisdiction, gear, flashlight, weaponType, weaponPower);
         this.weapons = weapons;
         this.carType = carType;
         this.specOpsGear = specOpsGear;
-
-
     }
 }

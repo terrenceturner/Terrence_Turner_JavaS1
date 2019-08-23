@@ -3,10 +3,7 @@ package com.company;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -47,6 +44,8 @@ public class App {
             //find largest screen size
             int largestScreenSize = televisionsList.stream().mapToInt(bike->bike.getScreenSize()).max().getAsInt();
             System.out.println("Largest screen size is " + largestScreenSize);
+
+
 
 
 
