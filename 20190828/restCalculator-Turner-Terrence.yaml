@@ -1,0 +1,97 @@
+openapi: 3.0.0
+info:
+  title: Rest Calculator Service
+  description:
+    A simple calculator service add, multiple, substract, and divide
+  version: 0.0.1
+servers: 
+  - url: 'http://localhost:8080'
+    description: Local dev server
+
+paths:
+  /add:
+    post:
+      summary: Creates a new sum entry with the given information
+      requestBody: JSON object with operand1 and operand2
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/add'
+      responses:
+        '201':
+          description: Sum of operand1 and operand2
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add'
+        '422':
+          description: Missing operand1 or operand2. Some required fields are missing.
+  /mult:
+    post:
+      summary: Creates a new product entry with the given information
+      requestBody: JSON object with operand1 and operand2
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/mult'
+      responses:
+        '201':
+          description: Product of operand1 and operand2
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mult'
+        '422':
+          description: Missing operand1 or operand2. Some required fields are missing.
+  /subtract:
+    post:
+      summary: Creates a new subtraction entry with the given information
+      requestBody: JSON object with operand1 and operand2
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/subtract'
+      responses:
+        '201':
+          description: Difference of operand1 and operand2
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/subtract'
+        '422':
+          description: Missing operand1 or operand2. Some required fields are missing.       
+  /divide:
+    post:
+      summary: Creates a new subtraction entry with the given information
+      requestBody: JSON object with operand1 and operand2
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/divide'
+      responses:
+        '201':
+          description: Quotient of operand1 and operand2
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/divide'
+        '422':
+          description: Missing operand1 or operand2. Some required fields are missing.         
+                 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          

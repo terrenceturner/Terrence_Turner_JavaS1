@@ -1,5 +1,11 @@
 package com.company;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.*;
 
 
@@ -77,7 +83,7 @@ public class CarList {
                 exit = userDelete.toUpperCase().charAt(0);
             }
 
-            
+
 
         } catch (InputMismatchException e) {
 
@@ -92,7 +98,8 @@ public class CarList {
 
         try{
 
-            System.out.println("Here's the list of cars in the inventory.\n");
+            System.out.println("Here's the list of cars in the inventory.");
+            System.out.println("__________________________________________\n");
             for (int i = 0; i < Cars.size(); i++) {
                 System.out.println(Cars.get(i));
             }
@@ -289,6 +296,26 @@ public class CarList {
         return;
     }
 
+    //Read and Write Method
+    public static void readWrite(ArrayList<Car> cars){
+
+        try {
+
+            ObjectMapper mapper = new ObjectMapper();
+            String jsonCarList = mapper.writeValueAsString(cars);
+
+            PrintWriter writer = new PrintWriter(new FileWriter("cars.json"));
+            writer.println(jsonCarList);
+            writer.flush();
+            writer.close();
+
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
 
 
 

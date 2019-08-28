@@ -1,5 +1,7 @@
 package com.company;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import java.util.*;
 
 
@@ -29,9 +31,11 @@ public class App {
             switch (userChoice) {
                 case "ADD":
                     CarList.addCar(cars);
+                    CarList.readWrite(cars);
                     break;
                 case "DEL":
                     CarList.deleteCar(cars);
+                    CarList.readWrite(cars);
                     break;
                 case "SHOW":
                     CarList.showCars(cars);
@@ -60,6 +64,10 @@ public class App {
             }
 
         }
+
+
     }
+
+
 
 }

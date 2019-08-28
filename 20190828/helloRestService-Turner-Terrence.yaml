@@ -1,0 +1,46 @@
+openapi: 3.0.0
+info:
+  title: Hello, Rest Service
+  description:
+    A simple service that says hello
+  version: 0.0.1
+servers: 
+  - url: 'http://localhost:8080'
+    description: Local dev server
+
+paths:
+  /hello/{Terrence}:
+    post:
+      summary: Says hello Terrence.
+      requestBody:
+        required: true
+        content:
+          application/json:
+      responses:
+        '201':
+          description: hello
+          content:
+            application/json:
+        '400':
+          description: Invalid request syntax.
+        '422':
+          description: Incomplete  information. Some required fields missing.
+  
+  /hello/Terrence{nameId}:  
+  get:
+      summary: Retrieves the entry for the name with the given ID.
+      parameters: 
+        - name: name
+          in: path
+          required: true
+          description: name of the user you would like to retrieve.
+          schema:
+            type: integer
+            format: int64
+            minimum: 1
+      responses:
+        '200':
+          description: "Hello, Terrence."
+          content:
+            application/json:
+              
