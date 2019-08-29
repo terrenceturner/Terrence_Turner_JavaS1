@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebaeb970-c485-4a1d-95f4-934b631912ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../../20190822/05-lesson-lambdas-streams/activities/katas/starter-code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../20190822/05-lesson-lambdas-streams/activities/katas/starter-code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M3L6PBD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/U1M3L6PBDTerrenceTurner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../in-class-activities/CarInventory/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../in-class-activities/CarInventory/src/main/java/com/company/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../U1-M2-Summative-Turner-Terrence/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ebaeb970-c485-4a1d-95f4-934b631912ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

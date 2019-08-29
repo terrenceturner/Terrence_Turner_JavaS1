@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ab307ce-3d8f-4590-add9-e41ed0fbbb8a" name="Default Changelist" comment="" />
+    <list default="true" id="7ab307ce-3d8f-4590-add9-e41ed0fbbb8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../20190823/06-lesson-activites-only/activities/pbd/U1M3L6PBD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/src/main/java/com/company/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/src/main/java/com/company/CarList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../20190823/in-class-activities/CarInventory/src/main/java/com/company/CarList.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/U1M3L5Katas/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +31,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
+            <state relative-caret-position="481">
               <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="45" selection-end-column="78" />
             </state>
           </provider>
@@ -60,7 +65,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="20" />
-    <option name="y" value="70" />
+    <option name="y" value="67" />
     <option name="width" value="1420" />
     <option name="height" value="782" />
   </component>
@@ -171,10 +176,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="70" width="1420" height="782" extended-state="0" />
+    <frame x="20" y="67" width="1420" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26415095" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27140784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -222,7 +227,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/U1M3L5Katas/src/main/java/com/company/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
+        <state relative-caret-position="481">
           <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="45" selection-end-column="78" />
         </state>
       </provider>
