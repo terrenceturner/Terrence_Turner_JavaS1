@@ -1,8 +1,13 @@
 package com.company.restcalculatorwebservice.model;
 
+import javax.validation.constraints.NotEmpty;
+
 public class Calculator {
 
+    @NotEmpty(message = "You must supply a value for operand1")
     private int operand1;
+
+    @NotEmpty(message = "You must supply a value for operand2")
     private int operand2;
 
     public int getOperand1() {
