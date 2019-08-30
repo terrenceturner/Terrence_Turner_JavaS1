@@ -7,15 +7,15 @@ public class Temperature {
 
     @NotEmpty(message = "You must supply a value for fahrenheit")
     @Size(min = 1, max = 3, message = "fahrenheit must be 3 characters in length")
-    private int fahrenheit;
+    private Number fahrenheit;
 
     @NotEmpty(message = "You must supply a value for celsius")
     @Size(min = 1, max = 2, message = "celsius must be 2 characters in length")
-    private int celsius;
+    private Number celsius;
 
 
 
-    public int getFahrenheit() {
+    public Number getFahrenheit() {
         return fahrenheit;
     }
 
@@ -23,7 +23,7 @@ public class Temperature {
         this.fahrenheit = fahrenheit;
     }
 
-    public int getCelsius() {
+    public Number getCelsius() {
         return celsius;
     }
 

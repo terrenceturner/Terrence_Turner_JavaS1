@@ -7,15 +7,15 @@ public class Conditions {
 
     @NotEmpty(message = "You must supply a value for fahrenheit")
     @Size(min = 1, max = 3, message = "fahrenheit must be 3 characters in length")
-    private int fahrenheit;
+    private Number fahrenheit;
 
     @NotEmpty(message = "You must supply a value for celsius")
     @Size(min = 1, max = 2, message = "celsius must be 2 characters in length")
-    private int celsius;
+    private Number celsius;
 
 
     @NotEmpty(message = "You must supply a value for windSpeed")
-    private int windSpeed;
+    private Number windSpeed;
 
     @NotEmpty(message = "You must supply a value for windDirection")
     private String windDirection;
@@ -26,7 +26,7 @@ public class Conditions {
     @NotEmpty(message = "You must supply a value for precipitation")
     private String precipitation;
 
-    public int getFahrenheit() {
+    public Number getFahrenheit() {
         return fahrenheit;
     }
 
@@ -34,7 +34,7 @@ public class Conditions {
         this.fahrenheit = fahrenheit;
     }
 
-    public int getCelsius() {
+    public Number getCelsius() {
         return celsius;
     }
 
@@ -42,7 +42,7 @@ public class Conditions {
         this.celsius = celsius;
     }
 
-    public int getWindSpeed() {
+    public Number getWindSpeed() {
         return windSpeed;
     }
 

@@ -18,8 +18,8 @@ public class WeatherController {
 
 
         Temperature temperature = new Temperature();
-        temperature.setCelsius(zipcode);
-        temperature.setFahrenheit(zipcode);
+        temperature.setCelsius(26);
+        temperature.setFahrenheit(80);
 
         return temperature;
 
@@ -34,11 +34,15 @@ public class WeatherController {
     public Conditions conditions(@PathVariable int zipcode){
 
 
-        Conditions conditions = new Conditions();
-        conditions.setCelsius(zipcode);
-        conditions.setFahrenheit(zipcode);
+        Conditions currentConditions = new Conditions();
+        currentConditions.setCelsius(36);
+        currentConditions.setFahrenheit(90);
+        currentConditions.setWindSpeed(60);
+        currentConditions.setWindDirection("North");
+        currentConditions.setSkies("Cloudy");
+        currentConditions.setPrecipitation("Low");
 
-        return conditions;
+        return currentConditions;
 
 
     }
