@@ -1,0 +1,85 @@
+openapi: 3.0.0
+info:
+  version: 0.0.1
+  title: Spring Boot and REST
+  description: Quote of the day, Word of the day, 8-ball
+servers: 
+  - url: http://localhost:8080
+    description: Local dev server
+
+paths:
+  /quote:
+    get:
+      summary: Retrieve quote of the day.
+      description: Quote of the day.
+      responses:
+        '200':
+          description: Successfully retrieve quote of the day.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Quote'
+                
+  /word:
+    get:
+      summary: Retrieve word of the day.
+      description: Word of the day.
+      responses:
+        '200':
+          description: Matched definition.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Definition'
+                
+  /magic:
+    post:
+      summary: Create magic 8-ball responses.
+      description: Provides 8-ball responses.
+      requestBody:
+        required: true
+        content:
+          string:
+            schema:
+              $ref: '#/components/schemas/Answer'
+      responses:
+        '201':
+          description: Created answer object.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Answer'
+        '400':
+          description: Invalid request syntax.
+        '422':
+          description: Invalid question.
+
+components:
+  schemas:
+    Quote:
+      properties:
+        author:
+          type: string
+        quote:
+          type: string
+      required: 
+        - author
+        - quote
+    Definition :
+      properties:
+        word:
+          type: string
+        definition:
+          type: string
+      required: 
+        - word
+        - definition
+    Answer :
+      properties:
+        question:
+          type: string
+        answer:
+          type: string
+      required: 
+        - question
+        - answer     
