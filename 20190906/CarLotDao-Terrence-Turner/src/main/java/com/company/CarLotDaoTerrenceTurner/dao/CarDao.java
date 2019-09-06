@@ -1,36 +1,36 @@
 package com.company.CarLotDaoTerrenceTurner.dao;
 
-import com.company.CarLotDaoTerrenceTurner.model.CarLot;
+import com.company.CarLotDaoTerrenceTurner.model.Car;
 
 import java.util.List;
 
-public interface CarLotDao {
+public interface CarDao {
 
     /**
      * Gets car by id
      * @param id
      * @return
      */
-    CarLot getCar(int id);
+    Car getCar(int id);
 
     /**
      * Gets all cars
      * @return
      */
-    List<CarLot> getAllCars();
+    List<Car> getAllCars();
 
     /**
      * Adds all cars
      * @param car
      * @return
      */
-    CarLot addCars(CarLot car);
+    Car addCars(Car car);
 
     /**
      * Updates car
      * @param car
      */
-    void updateCar(CarLot car);
+    void updateCar(Car car);
 
     /**
      * Deletes car
@@ -43,12 +43,12 @@ public interface CarLotDao {
      * @param make
      * @return
      */
-    List<CarLot> getCarsByMake(String make);
+    List<Car> getCarsByMake(String make);
 
     /**
      * Gets list of cars by color
      * @param color
      * @return
      */
-    List<CarLot> getCarsByColor(String color);
+    List<Car> getCarsByColor(String color);
 }

@@ -1,10 +1,8 @@
 package com.company.CarLotDaoTerrenceTurner.model;
 
-import sun.jvm.hotspot.ui.tree.SimpleTreeGroupNode;
-
 import java.util.Objects;
 
-public class CarLot {
+public class Car {
 
     private int id;
     private String make;
@@ -56,12 +54,12 @@ public class CarLot {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        CarLot carLot = (CarLot) o;
-        return id == carLot.id &&
-                make.equals(carLot.make) &&
-                model.equals(carLot.model) &&
-                model_year.equals(carLot.model_year) &&
-                color.equals(carLot.color);
+        Car car = (Car) o;
+        return id == car.id &&
+                make.equals(car.make) &&
+                model.equals(car.model) &&
+                model_year.equals(car.model_year) &&
+                color.equals(car.color);
     }
 
     @Override

@@ -1,6 +1,6 @@
 package com.company.CarLotDaoTerrenceTurner.dao;
 
-import com.company.CarLotDaoTerrenceTurner.model.CarLot;
+import com.company.CarLotDaoTerrenceTurner.model.Car;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -12,7 +12,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 @Repository
-public class CarLotJdbcTemplateImpl implements CarLotDao{
+public class CarJdbcTemplateImpl implements CarDao {
     //Prepared statement strings
     private static final String INSERT_CAR_SQL = "INSERT INTO CAR (MAKE, MODEL, YEAR, COLOR) VALUES(?, ?, ?, ?)";
 
@@ -31,7 +31,7 @@ public class CarLotJdbcTemplateImpl implements CarLotDao{
     private JdbcTemplate jdbcTemplate;
 
     @Autowired
-    public CarLotJdbcTemplateImpl(JdbcTemplate jdbcTemplate) {
+    public CarJdbcTemplateImpl(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 
@@ -42,7 +42,7 @@ public class CarLotJdbcTemplateImpl implements CarLotDao{
      * @return
      */
     @Override
-    public CarLot getCar(int id) {
+    public Car getCar(int id) {
         try{
             return jdbcTemplate.queryForObject(SELECT_CAR_SQL, this::mapRowToCar, id);
         } catch (EmptyResultDataAccessException e){
@@ -57,7 +57,7 @@ public class CarLotJdbcTemplateImpl implements CarLotDao{
      * @return
      */
     @Override
-    public List<CarLot> getAllCars() {
+    public List<Car> getAllCars() {
         return jdbcTemplate.query(SELECT_ALL_CAR_SQL, this::mapRowToCar);
     }
 
@@ -69,7 +69,7 @@ public class CarLotJdbcTemplateImpl implements CarLotDao{
      */
     @Override
     @Transactional
-    public CarLot addCars(CarLot car) {
+    public Car addCars(Car car) {
         jdbcTemplate.update(INSERT_CAR_SQL, car.getMake(), car.getModel(), car.getYear(),
                 car.getColor());
         int id = jdbcTemplate.queryForObject("select last_insert_id()", Integer.class);
@@ -84,7 +84,7 @@ public class CarLotJdbcTemplateImpl implements CarLotDao{
      * @param car
      */
     @Override
-    public void updateCar(CarLot car) {
+    public void updateCar(Car car) {
         jdbcTemplate.update(UPDATE_CAR_SQL, car.getMake(), car.getModel(), car.getYear(),
                 car.getColor(), car.getId());
     }
@@ -106,7 +106,7 @@ public class CarLotJdbcTemplateImpl implements CarLotDao{
      * @return
      */
     @Override
-    public List<CarLot> getCarsByMake(String make) {
+    public List<Car> getCarsByMake(String make) {
         return jdbcTemplate.query(SELECT_CARS_BY_MAKE_SQL, this::mapRowToCar, make);
     }
 
@@ -117,7 +117,7 @@ public class CarLotJdbcTemplateImpl implements CarLotDao{
      * @return
      */
     @Override
-    public List<CarLot> getCarsByColor(String color) {
+    public List<Car> getCarsByColor(String color) {
         return jdbcTemplate.query(SELECT_CARS_BY_COLOR_SQL, this::mapRowToCar, color);
     }
 
@@ -129,8 +129,8 @@ public class CarLotJdbcTemplateImpl implements CarLotDao{
      * @throws SQLException
      */
 
-    public CarLot mapRowToCar(ResultSet rs, int rowNum) throws SQLException {
-        CarLot carlot = new CarLot();
+    public Car mapRowToCar(ResultSet rs, int rowNum) throws SQLException {
+        Car carlot = new Car();
         carlot.setId(rs.getInt("id"));
         carlot.setMake(rs.getString("make"));
         carlot.setModel(rs.getString("model"));
