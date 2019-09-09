@@ -14,7 +14,7 @@ import java.util.List;
 @Repository
 public class CarJdbcTemplateImpl implements CarDao {
     //Prepared statement strings
-    private static final String INSERT_CAR_SQL = "INSERT INTO CAR (MAKE, MODEL, YEAR, COLOR) VALUES(?, ?, ?, ?)";
+    private static final String INSERT_CAR_SQL = "INSERT INTO CAR (MAKE, MODEL, model_YEAR, COLOR) VALUES(?, ?, ?, ?)";
 
     private static final String SELECT_CAR_SQL = "select * from car where id = ?";
 
@@ -22,7 +22,7 @@ public class CarJdbcTemplateImpl implements CarDao {
 
     private static final String DELETE_CAR_SQL = "delete from car where id = ?";
 
-    private static final String UPDATE_CAR_SQL = "update car set make = ?, model = ?, year = ?, color = ? where id = ?";
+    private static final String UPDATE_CAR_SQL = "update car set make = ?, model = ?, model_year = ?, color = ? where id = ?";
 
     private static final String SELECT_CARS_BY_MAKE_SQL = "select * from car where make = ?";
 
@@ -134,7 +134,7 @@ public class CarJdbcTemplateImpl implements CarDao {
         carlot.setId(rs.getInt("id"));
         carlot.setMake(rs.getString("make"));
         carlot.setModel(rs.getString("model"));
-        carlot.setYear(rs.getString("year"));
+        carlot.setYear(rs.getString("model_year"));
         carlot.setColor(rs.getString("color"));
 
         return carlot;
