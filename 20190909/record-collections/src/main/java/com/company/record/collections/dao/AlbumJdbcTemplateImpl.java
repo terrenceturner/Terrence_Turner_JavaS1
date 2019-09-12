@@ -113,7 +113,7 @@ public class AlbumJdbcTemplateImpl implements AlbumDao {
         album.setArtist_id(rs.getInt("artist_id"));
         album.setRelease_date(rs.getDate("release_date").toLocalDate());
         album.setLabel_id(rs.getInt("label_id"));
-        album.setPrice(rs.getDouble("list_price"));
+        album.setPrice(rs.getBigDecimal("list_price"));
 
         return album;
     }

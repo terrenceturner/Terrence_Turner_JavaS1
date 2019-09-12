@@ -1,6 +1,6 @@
 package com.company.record.collections.model;
 
-import java.sql.Date;
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Objects;
 
@@ -11,7 +11,7 @@ public class Album {
     private int artist_id;
     private LocalDate release_date;
     private int label_id;
-    private double list_price;
+    private BigDecimal list_price;
 
     public int getAlbum_id() {
         return album_id;
@@ -53,11 +53,11 @@ public class Album {
         this.label_id = label_id;
     }
 
-    public double getPrice() {
+    public BigDecimal getPrice() {
         return list_price;
     }
 
-    public void setPrice(double list_price) {
+    public void setPrice(BigDecimal list_price) {
         this.list_price = list_price;
     }
 
@@ -69,10 +69,10 @@ public class Album {
         Album album = (Album) o;
         return album_id == album.album_id &&
                 artist_id == album.artist_id &&
-                release_date == album.release_date &&
                 label_id == album.label_id &&
-                Double.compare(album.list_price, list_price) == 0 &&
-                title.equals(album.title);
+                title.equals(album.title) &&
+                release_date.equals(album.release_date) &&
+                list_price.equals(album.list_price);
     }
 
     @Override

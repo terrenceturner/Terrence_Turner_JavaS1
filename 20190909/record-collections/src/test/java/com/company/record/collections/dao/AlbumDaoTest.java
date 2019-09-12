@@ -83,7 +83,7 @@ public class AlbumDaoTest {
         album.setArtist_id(artist.getArtist_id());
         album.setLabel_id(label.getLabel_id());
         album.setRelease_date(LocalDate.of(2010, 1, 5));
-        album.setPrice(21.95);
+        album.setPrice(new BigDecimal( "21.95"));
 
         album = dao.addAlbum(album);
 
@@ -118,7 +118,7 @@ public class AlbumDaoTest {
         album.setArtist_id(artist.getArtist_id());
         album.setRelease_date(LocalDate.of(1992, 2, 17));
         album.setLabel_id(label.getLabel_id());
-        album.setPrice(9.1);
+        album.setPrice(new BigDecimal("9.1"));
 
         dao.addAlbum(album);
 
@@ -138,7 +138,7 @@ public class AlbumDaoTest {
         album.setArtist_id(artist.getArtist_id());
         album.setRelease_date(LocalDate.of(2019, 8, 17));
         album.setLabel_id(label.getLabel_id());
-        album.setPrice(10.1);
+        album.setPrice(new BigDecimal("10.1"));
 
         dao.addAlbum(album);
 
@@ -167,13 +167,13 @@ public class AlbumDaoTest {
         album.setArtist_id(artist.getArtist_id());
         album.setLabel_id(label.getLabel_id());
         album.setRelease_date(LocalDate.of(2010, 1, 1));
-        album.setPrice(16.95);
+        album.setPrice(new BigDecimal(" 16.95"));
 
         album = dao.addAlbum(album);
 
         album.setTitle("NEW TITLE");
         album.setRelease_date(LocalDate.of(2000, 7, 7));
-        album.setPrice(15.68);
+        album.setPrice(new BigDecimal( "15.68"));
 
         dao.updateAlbum(album);
 

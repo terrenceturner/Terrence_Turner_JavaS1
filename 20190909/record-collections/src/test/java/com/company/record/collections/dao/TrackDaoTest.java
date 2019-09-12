@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -77,7 +78,7 @@ public class TrackDaoTest {
         album.setArtist_id(artist.getArtist_id());
         album.setLabel_id(label.getLabel_id());
         album.setRelease_date(LocalDate.of(2010, 1, 5));
-        album.setPrice(21.95);
+        album.setPrice(new BigDecimal( "21.95"));
 
         album = albumDao.addAlbum(album);
 
@@ -118,7 +119,7 @@ public class TrackDaoTest {
         album.setArtist_id(artist.getArtist_id());
         album.setLabel_id(label.getLabel_id());
         album.setRelease_date(LocalDate.of(2010, 1, 5));
-        album.setPrice(21.95);
+        album.setPrice(new BigDecimal( "21.95"));
 
         album = albumDao.addAlbum(album);
 
@@ -159,7 +160,7 @@ public class TrackDaoTest {
         album.setArtist_id(artist.getArtist_id());
         album.setLabel_id(label.getLabel_id());
         album.setRelease_date(LocalDate.of(2010, 1, 5));
-        album.setPrice(21.95);
+        album.setPrice(new BigDecimal( "21.95"));
 
         album = albumDao.addAlbum(album);
 
@@ -168,7 +169,7 @@ public class TrackDaoTest {
         album1.setArtist_id(artist.getArtist_id());
         album1.setLabel_id(label.getLabel_id());
         album1.setRelease_date(LocalDate.of(2012, 6, 25));
-        album1.setPrice(9.95);
+        album1.setPrice(new BigDecimal( "9.95"));
 
         album1 = albumDao.addAlbum(album1);
 
@@ -211,7 +212,7 @@ public class TrackDaoTest {
         album.setArtist_id(artist.getArtist_id());
         album.setLabel_id(label.getLabel_id());
         album.setRelease_date(LocalDate.of(2010, 1, 5));
-        album.setPrice(21.95);
+        album.setPrice(new BigDecimal( "21.95"));
 
         album = albumDao.addAlbum(album);
 
@@ -220,7 +221,7 @@ public class TrackDaoTest {
         album1.setArtist_id(artist.getArtist_id());
         album1.setLabel_id(label.getLabel_id());
         album1.setRelease_date(LocalDate.of(2012, 6, 25));
-        album1.setPrice(9.95);
+        album1.setPrice(new BigDecimal( "9.95"));
 
         album1 = albumDao.addAlbum(album1);
 
