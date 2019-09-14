@@ -1,0 +1,351 @@
+openapi: 3.0.0
+info:
+  version: 0.0.1
+  title: Book Store REST
+  description: Book, Author, Publisher
+servers: 
+  - url: http://localhost:8080
+    description: Local dev server
+
+paths:
+  /book:
+    post:
+      summary: Creates a new book entry with the given information
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Book'
+      responses:
+        '201':
+          description: A Book object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Book'
+        '400':
+          description: Invalid request syntax.
+        '422':
+          description: Incomplete Book information. Some required fields missing.
+            
+  /book/{book_id}:
+   # GET, DELETE, and PUT are all under this path entry
+    get:
+      summary: Retrieves the entry for the Book with the given ID.
+      parameters:
+        - name: book_id
+          in: path
+          required: true
+          description: ID of the book you would like to retrieve. 
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200': 
+          description: Book object matching given ID
+          content: 
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Book'
+
+    delete: 
+      summary: Deletes the entry for the Book with the given ID.
+      parameters: 
+       - name: book_id
+         in: path
+         required: true
+         description: ID of the Book you would like to delete. 
+         schema: 
+          type: integer
+          format: int64
+          minimum: 1
+      responses: 
+        '200': 
+         description: Book successfully deleted. 
+    put:
+      summary: updated the entry for the book with the given ID.
+      parameters: 
+      - name: book_id
+        in: path
+        required: true
+        description: Id of the book you would like to update. 
+        schema:
+          type: integer
+          format: int64
+          minimum: 1
+      requestBody:
+        required: true
+        content:
+          application/json:
+           schema:
+             $ref: '#/components/schemas/Book'
+      responses:
+        '200':
+          description: Book successfully updated. 
+        '422': 
+          description: Book ID on path must match the ID in the Book object.
+  /book/{author_id}:
+    get:
+      summary: get all Publishers for a Book with the given author id.
+      parameters: 
+        - name: author_id
+          in: path
+          required: true
+          description: ID of the Book for whom we will get Books
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: books found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Book'
+        '400':
+          description: Improper type entered for author ID.
+        '500':
+          description: No Publishers found for this author ID.        
+  /author:
+    post:
+        summary: Creates a new author entry with the given information
+        requestBody:
+          required: true
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Author'
+        responses:
+          '201':
+            description: An Author object
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/Author'
+          '400':
+            description: Invalid request syntax.
+          '422':
+            description: Incomplete Book information. Some required fields missing.
+            
+  /author/{author_id}:
+   # GET, DELETE, and PUT are all under this path entry
+    get:
+      summary: Retrives the entry for the Author with the given ID.
+      parameters:
+        - name: author_id
+          in: path
+          required: true
+          description: ID of the Author you would like to retrieve. 
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200': 
+          description: Author object matching given ID
+          content: 
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Author'
+    delete: 
+      summary: Deletes the entry for the Author with the given ID.
+      parameters: 
+       - name: author_id
+         in: path
+         required: true
+         description: ID of the Author you would like to delete. 
+         schema: 
+          type: integer
+          format: int64
+          minimum: 1
+      responses: 
+        '200': 
+         description: Author successfully deleted. 
+    put:
+      summary: updated the entry for the Author with the given ID.
+      parameters: 
+      - name: author_id
+        in: path
+        required: true
+        description: Id of the Author you would like to update. 
+        schema:
+          type: integer
+          format: int64
+          minimum: 1
+      requestBody:
+        required: true
+        content:
+          application/json:
+           schema:
+             $ref: '#/components/schemas/Author'
+      responses:
+        '200':
+          description: Author successfully updated. 
+        '422': 
+          description: Author ID on path must match the ID in the Author object.
+  /publisher:
+    post:
+      summary: Creates a new Publisher entry with the given information
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Publisher'
+      responses:
+        '201':
+          description: An Publisher object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Publisher'
+        '400':
+          description: Invalid request syntax.
+        '422':
+          description: Incomplete Book information. Some required fields missing.
+  /publisher/{publisher_id}:
+    delete: 
+      summary: Deletes the entry for the Publisher with the given ID
+      parameters: 
+       - name: publisher_id
+         in: path
+         required: true
+         description: ID of the Publisher you would like to delete. 
+         schema: 
+          type: integer
+          format: int64
+          minimum: 1
+      responses: 
+        '200': 
+         description: Publisher successfully deleted.
+    get:
+      summary: Retrives the entry for the Publisher with the given ID.
+      parameters:
+        - name: publisher_id
+          in: path
+          required: true
+          description: ID of the Author you would like to retrieve. 
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200': 
+          description: Publisher object matching given ID
+          content: 
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Publisher'
+    put:
+      summary: updated the entry for the publisher with the given ID.
+      parameters: 
+      - name: publisher_id
+        in: path
+        required: true
+        description: Id of the book you would like to update. 
+        schema:
+          type: integer
+          format: int64
+          minimum: 1
+      requestBody:
+        required: true
+        content:
+          application/json:
+           schema:
+             $ref: '#/components/schemas/Publisher'
+      responses:
+        '200':
+          description: publisher successfully updated. 
+        '422': 
+          description: Publisher ID on path must match the ID in the Publisher object.
+  
+components:
+  schemas:
+    Book:
+      type: object
+      properties:
+        book_id:
+          type: number
+        isbn:
+          type: string
+        publish_date:
+          type: string
+        author_id: 
+          type: number
+        title: 
+          type: string
+        publisher_id: 
+          type: number
+        price:
+          type: number
+      required: 
+        - book_id
+        - isbn
+        - publish_date
+        - author_id
+        - title
+        - publisher_id
+        - price
+        
+    Author:
+      type: object
+      properties:
+        Author_id: 
+         type: number
+        first_name: 
+         type: string 
+        last_name:
+         type: string
+        street: 
+         type: string
+        city:
+          type: string
+        state:
+          type: string
+        postal_code:
+          type: string
+        phone:
+          type: string
+        email:
+          type: string
+      required: 
+        - Author_id
+        - first_name
+        - last_name
+        - street
+        - city
+        - state
+        - postal_code
+        - phone
+        - email
+        
+    Publisher:
+      type: object
+      properties:
+        publisher_id:
+          type: integer
+        name:
+          type: string
+        street: 
+         type: string
+        city:
+          type: string
+        state:
+          type: string
+        postal_code:
+          type: string
+        phone:
+          type: string
+        email:
+          type: string
+      required:
+        - publisher_id
+        - name
+        - street
+        - city
+        - state
+        - postal_code
+        - phone
+        - email
+        
+            
+            

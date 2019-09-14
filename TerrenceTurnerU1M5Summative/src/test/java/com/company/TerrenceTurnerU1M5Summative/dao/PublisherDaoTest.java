@@ -31,19 +31,17 @@ public class PublisherDaoTest {
     public void setUp() throws Exception {
 
         // Clean up the test db
+        List<Book> bookList = bookDao.getAllBooks();
+        for (Book book : bookList) {
+            bookDao.deleteBook (book.getBook_id());
+        }
+
         List<Author> authorList = authorDao.getAllAuthors();
         for (Author author : authorList) {
             authorDao.deleteAuthor(author.getAuthor_id());
         }
 
-        List<Book> bookList = bookDao.getAllBooks();
-
-        for (Book book : bookList) {
-            bookDao.deleteBook (book.getBook_id());
-        }
-
         List<Publisher> publisherList = publisherDao.getAllPublishers();
-
         for (Publisher publisher : publisherList) {
             publisherDao.deletePublisher(publisher.getPublisher_id());
         }
@@ -124,7 +122,8 @@ public class PublisherDaoTest {
         publisher.setPhone("740-982-8039");
         publisher.setEmail("book@gmail.com");
 
-        publisherDao.updatePublisher(publisher);
+        publisherDao.addPublisher(publisher);
+
 
         List<Publisher> publisherList = publisherDao.getAllPublishers();
 

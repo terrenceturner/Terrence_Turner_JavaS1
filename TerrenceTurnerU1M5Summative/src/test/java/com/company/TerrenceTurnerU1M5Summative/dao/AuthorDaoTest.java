@@ -31,19 +31,17 @@ public class AuthorDaoTest {
     public void setUp() throws Exception {
 
         // Clean up the test db
+        List<Book> bookList = bookDao.getAllBooks();
+        for (Book book : bookList) {
+            bookDao.deleteBook (book.getBook_id());
+        }
+
         List<Author> authorList = authorDao.getAllAuthors();
         for (Author author : authorList) {
             authorDao.deleteAuthor(author.getAuthor_id());
         }
 
-        List<Book> bookList = bookDao.getAllBooks();
-
-        for (Book book : bookList) {
-            bookDao.deleteBook (book.getBook_id());
-        }
-
         List<Publisher> publisherList = publisherDao.getAllPublishers();
-
         for (Publisher publisher : publisherList) {
             publisherDao.deletePublisher(publisher.getPublisher_id());
         }
@@ -64,7 +62,7 @@ public class AuthorDaoTest {
 
         author = authorDao.addAuthor(author);
 
-        Author author1 = authorDao.getAuthor(author.getAuthor_id())
+        Author author1 = authorDao.getAuthor(author.getAuthor_id());
 
         assertEquals(author, author1);
 
@@ -73,7 +71,6 @@ public class AuthorDaoTest {
         author1 = authorDao.getAuthor(author.getAuthor_id());
 
         assertNull(author1);
-
 
     }
 

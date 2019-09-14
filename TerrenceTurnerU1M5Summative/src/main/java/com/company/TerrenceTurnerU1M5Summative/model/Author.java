@@ -5,14 +5,14 @@ import java.util.Objects;
 public class Author {
 
     private Integer author_id;
-    private String  first_name;
+    private String first_name;
     private String last_name;
     private String street;
     private String city;
     private String state;
     private String postal_code;
     private String phone;
-    private String  email;
+    private String email;
 
     public Integer getAuthor_id() {
         return author_id;

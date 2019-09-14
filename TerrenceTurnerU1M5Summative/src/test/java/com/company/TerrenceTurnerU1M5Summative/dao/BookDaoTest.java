@@ -3,10 +3,14 @@ package com.company.TerrenceTurnerU1M5Summative.dao;
 import com.company.TerrenceTurnerU1M5Summative.model.Author;
 import com.company.TerrenceTurnerU1M5Summative.model.Book;
 import com.company.TerrenceTurnerU1M5Summative.model.Publisher;
+import junit.framework.TestCase;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestExecutionListeners;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -14,6 +18,8 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootTest
 public class BookDaoTest {
 
     @Autowired
@@ -29,19 +35,17 @@ public class BookDaoTest {
     public void setUp() throws Exception {
 
         // Clean up the test db
+        List<Book> bookList = bookDao.getAllBooks();
+        for (Book book : bookList) {
+            bookDao.deleteBook (book.getBook_id());
+        }
+
         List<Author> authorList = authorDao.getAllAuthors();
         for (Author author : authorList) {
             authorDao.deleteAuthor(author.getAuthor_id());
         }
 
-        List<Book> bookList = bookDao.getAllBooks();
-
-        for (Book book : bookList) {
-            bookDao.deleteBook (book.getBook_id());
-        }
-
         List<Publisher> publisherList = publisherDao.getAllPublishers();
-
         for (Publisher publisher : publisherList) {
             publisherDao.deletePublisher(publisher.getPublisher_id());
         }
