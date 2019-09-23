@@ -25,7 +25,7 @@ public class ServiceLayerTest {
     GameDao gameDao;
     ProcessingFeeDao processingFeeDao;
     SalesTaxRateDao salesTaxRateDao;
-    TShirtDao tshirtDao;
+    TShirtDao tShirtDao;
     InvoiceDao invoiceDao;
 
     @Before
@@ -37,34 +37,34 @@ public class ServiceLayerTest {
         setUpProcessingFeeDaoMock();
         setUpSalesTaxDaoMock();
 
-        service = new ServiceLayer(consoleDao,gameDao,invoiceDao,tshirtDao,processingFeeDao,salesTaxRateDao);
+        service = new ServiceLayer(consoleDao,gameDao,invoiceDao,tShirtDao,processingFeeDao,salesTaxRateDao);
     }
     private void setUpConsoleDaoMock(){
         consoleDao = mock(ConsoleDaoJdbcTemplateImpl.class);
         Console console = new Console();
-        console.setConsole_id(2);
-        console.setModel("A");
-        console.setManufacturer("b");
-        console.setMemory_amount("4gb");
-        console.setProcessor("gui");
-        console.setPrice(BigDecimal.valueOf(23.00));
+        console.setConsole_id(1);
+        console.setModel("X123");
+        console.setManufacturer("microsoft");
+        console.setMemory_amount("16GB");
+        console.setProcessor("AMD");
+        console.setPrice(new BigDecimal("450.00"));
         console.setQuantity(2);
 
         Console console2 = new Console();
-        console2.setModel("A");
-        console2.setManufacturer("b");
-        console2.setMemory_amount("4gb");
-        console2.setProcessor("gui");
-        console2.setPrice(BigDecimal.valueOf(23.00));
-        console2.setQuantity(2);
+        console2.setModel("SSX123");
+        console2.setManufacturer("sony");
+        console2.setMemory_amount("1GB");
+        console2.setProcessor("ROX");
+        console2.setPrice(new BigDecimal("500.00"));
+        console2.setQuantity(9);
 
         Console updatedConsole = new Console();
         updatedConsole.setConsole_id(3);
-        updatedConsole.setModel("A");
-        updatedConsole.setManufacturer("b");
+        updatedConsole.setModel("switch");
+        updatedConsole.setManufacturer("nintendo");
         updatedConsole.setMemory_amount("4gb");
-        updatedConsole.setProcessor("gui");
-        updatedConsole.setPrice(BigDecimal.valueOf(23.00));
+        updatedConsole.setProcessor("RAM");
+        updatedConsole.setPrice(new BigDecimal("23.00"));
         updatedConsole.setQuantity(2);
 
         List<Console> consoleList = new ArrayList<>();
@@ -82,28 +82,28 @@ public class ServiceLayerTest {
         gameDao = mock(GameDaoJdbcTemplateImpl.class);
         Game game = new Game();
         game.setGame_id(1);
-        game.setTitle("wii");
-        game.setEsrb_rating("T");
-        game.setDescription("jdhewio");
-        game.setPrice(BigDecimal.valueOf(45.00));
-        game.setStudio("samsung");
+        game.setTitle("NBA 2K");
+        game.setEsrb_rating("E");
+        game.setDescription("everyone");
+        game.setPrice(new BigDecimal("59.99"));
+        game.setStudio("2K Studios");
         game.setQuantity(2);
 
         Game game2 = new Game();
-        game2.setTitle("wii");
-        game2.setEsrb_rating("T");
-        game2.setDescription("jdhewio");
-        game2.setPrice(BigDecimal.valueOf(45.00));
-        game2.setStudio("samsung");
-        game2.setQuantity(2);
+        game2.setTitle("Halo");
+        game2.setEsrb_rating("M");
+        game2.setDescription("mature");
+        game2.setPrice(new BigDecimal("59.99"));
+        game2.setStudio("Bungie");
+        game2.setQuantity(3);
 
         Game updatedGame = new Game();
-        updatedGame.setTitle("T");
-        updatedGame.setEsrb_rating("u");
-        updatedGame.setDescription("hswi");
-        updatedGame.setPrice(BigDecimal.valueOf(45.00));
-        updatedGame.setStudio("samsung");
-        updatedGame.setQuantity(2);
+        updatedGame.setTitle("WWE 2K20");
+        updatedGame.setEsrb_rating("E");
+        updatedGame.setDescription("everyone");
+        updatedGame.setPrice(new BigDecimal("45.99"));
+        updatedGame.setStudio("2K Studios");
+        updatedGame.setQuantity(10);
 
         List<Game> gameList = new ArrayList<>();
         gameList.add(game);
@@ -112,46 +112,46 @@ public class ServiceLayerTest {
         doReturn(game).when(gameDao).getGame(1);
         doReturn(updatedGame).when(gameDao).updateGame(updatedGame);
         doReturn(gameList).when(gameDao).getAllGames();
-        doReturn(gameList).when(gameDao).getGameByEsrbRating("T");
-        doReturn(gameList).when(gameDao).getGameByTitle("wii");
-        doReturn(gameList).when(gameDao).getGameByStudio("samsung");
+        doReturn(gameList).when(gameDao).getGameByEsrbRating("E");
+        doReturn(gameList).when(gameDao).getGameByTitle("Halo");
+        doReturn(gameList).when(gameDao).getGameByStudio("2K Studios");
 
     }
     private void setUpTShirtDaoMock() {
 
-        tshirtDao = mock(TShirtDaoJdbcTemplateImpl.class);
-        TShirt tshirt = new TShirt();
-        tshirt.setT_shirt_id(1);
-        tshirt.setSize("M");
-        tshirt.setColor("Black");
-        tshirt.setDescription("hdiwh");
-        tshirt.setPrice(BigDecimal.valueOf(67.00));
-        tshirt.setQuantity(6);
+        tShirtDao = mock(TShirtDaoJdbcTemplateImpl.class);
+        TShirt tShirt = new TShirt();
+        tShirt.setT_shirt_id(1);
+        tShirt.setSize("L");
+        tShirt.setColor("Black");
+        tShirt.setDescription("A nice shirt");
+        tShirt.setPrice(new BigDecimal("34.00"));
+        tShirt.setQuantity(3);
 
-        TShirt tshirt2 = new TShirt();
-        tshirt2.setSize("M");
-        tshirt2.setColor("Black");
-        tshirt2.setDescription("hdiwh");
-        tshirt2.setPrice(BigDecimal.valueOf(67.00));
-        tshirt2.setQuantity(6);
+        TShirt tShirt2 = new TShirt();
+        tShirt.setSize("XL");
+        tShirt.setColor("Grey");
+        tShirt.setDescription("An okay shirt");
+        tShirt.setPrice(new BigDecimal("24.00"));
+        tShirt.setQuantity(3);
 
         TShirt updatedTShirt = new TShirt();
         updatedTShirt.setT_shirt_id(1);
         updatedTShirt.setSize("L");
         updatedTShirt.setColor("White");
-        updatedTShirt.setDescription("hdiwh");
-        updatedTShirt.setPrice(BigDecimal.valueOf(23.00));
+        updatedTShirt.setDescription("A Shirt");
+        updatedTShirt.setPrice(new BigDecimal("23.00"));
         updatedTShirt.setQuantity(6);
 
-        List<TShirt> tshirtList = new ArrayList<>();
-        tshirtList.add(tshirt);
+        List<TShirt> tShirtList = new ArrayList<>();
+        tShirtList.add(tShirt);
 
-        doReturn(tshirt).when(tshirtDao).addTShirt(tshirt2);
-        doReturn(tshirt).when(tshirtDao).getTShirt(1);
-        doReturn(updatedTShirt).when(tshirtDao).updateTShirt(updatedTShirt);
-        doReturn(tshirtList).when(tshirtDao).getAllTShirts();
-        doReturn(tshirtList).when(tshirtDao).getTShirtBySize(("M"));
-        doReturn(tshirtList).when(tshirtDao).getTShirtByColor("Black");
+        doReturn(tShirt).when(tShirtDao).addTShirt(tShirt2);
+        doReturn(tShirt).when(tShirtDao).getTShirt(1);
+        doReturn(updatedTShirt).when(tShirtDao).updateTShirt(updatedTShirt);
+        doReturn(tShirtList).when(tShirtDao).getAllTShirts();
+        doReturn(tShirtList).when(tShirtDao).getTShirtBySize(("M"));
+        doReturn(tShirtList).when(tShirtDao).getTShirtByColor("Black");
     }
 
     private void setUpInvoiceDaoMock(){
@@ -169,35 +169,35 @@ public class ServiceLayerTest {
 
         Invoice invoice = new Invoice();
         invoice.setInvoice_id(2);
-        invoice.setName("yasser");
-        invoice.setStreet("xyz street");
-        invoice.setCity("new york");
-        invoice.setState("NY");
-        invoice.setZipcode("93829");
-        invoice.setItem_type("u");
-        invoice.setItem_id(3);
-        invoice.setUnit_price(BigDecimal.valueOf(3.00));
-        invoice.setQuantity(3);
-        invoice.setSubtotal(BigDecimal.valueOf(9.00));
-        invoice.setTax(BigDecimal.valueOf(76.00));
-        invoice.setProcessing_fee(BigDecimal.valueOf(1.49));
-        invoice.setTotal(BigDecimal.valueOf(86.49));
+        invoice.setName("invoice");
+        invoice.setStreet("123 Main St");
+        invoice.setCity("Los Angeles");
+        invoice.setState("CA");
+        invoice.setZipcode("72194");
+        invoice.setItem_type("itemType");
+        invoice.setItem_id(2);
+        invoice.setUnit_price(new BigDecimal("3.25"));
+        invoice.setQuantity(4);
+        invoice.setSubtotal(new BigDecimal("35.50"));
+        invoice.setTax(new BigDecimal("2.30"));
+        invoice.setProcessing_fee(new BigDecimal("4.00"));
+        invoice.setTotal(new BigDecimal("62.50"));
 
         Invoice invoice2 = new Invoice();
 
-        invoice2.setName("yasser");
-        invoice2.setStreet("xyz street");
-        invoice2.setCity("new york");
-        invoice2.setState("NY");
-        invoice2.setZipcode("93829");
-        invoice2.setItem_type("u");
-        invoice2.setItem_id(3);
-        invoice2.setUnit_price(BigDecimal.valueOf(3.00));
-        invoice2.setQuantity(3);
-        invoice2.setSubtotal(BigDecimal.valueOf(9.00));
-        invoice2.setTax(BigDecimal.valueOf(76.00));
-        invoice2.setProcessing_fee(BigDecimal.valueOf(1.49));
-        invoice2.setTotal(BigDecimal.valueOf(86.49));
+        invoice.setName("invoice");
+        invoice.setStreet("123 Main St");
+        invoice.setCity("Los Angeles");
+        invoice.setState("CA");
+        invoice.setZipcode("72194");
+        invoice.setItem_type("itemType");
+        invoice.setItem_id(2);
+        invoice.setUnit_price(new BigDecimal("3.25"));
+        invoice.setQuantity(4);
+        invoice.setSubtotal(new BigDecimal("35.50"));
+        invoice.setTax(new BigDecimal("2.30"));
+        invoice.setProcessing_fee(new BigDecimal("4.00"));
+        invoice.setTotal(new BigDecimal("62.50"));
 
 
         doReturn(invoice).when(invoiceDao).addInvoice(invoice2);
@@ -210,10 +210,10 @@ public class ServiceLayerTest {
         salesTaxRateDao = mock(SalesTaxRateDaoJdbcTemplateImpl.class);
 
         SalesTaxRate salesTaxRate = new SalesTaxRate();
-        salesTaxRate.setState("NC");
-        salesTaxRate.setRate(new BigDecimal(".05"));
+        salesTaxRate.setState("CA");
+        salesTaxRate.setRate(new BigDecimal(".50"));
 
-        doReturn(salesTaxRate).when(salesTaxRateDao).getSalesTaxRate("NC");
+        doReturn(salesTaxRate).when(salesTaxRateDao).getSalesTaxRate("CA");
     }
 
     private void setUpProcessingFeeDaoMock() {
@@ -229,11 +229,11 @@ public class ServiceLayerTest {
     @Test
     public void saveFindConsole() {
         ConsoleViewModel consoleView = new ConsoleViewModel();
-        consoleView.setModel("A");
-        consoleView.setManufacturer("b");
-        consoleView.setMemory_amount("4gb");
-        consoleView.setProcessor("gui");
-        consoleView.setPrice(BigDecimal.valueOf(23.00));
+        consoleView.setModel("X123");
+        consoleView.setManufacturer("microsoft");
+        consoleView.setMemory_amount("16GB");
+        consoleView.setProcessor("AMD");
+        consoleView.setPrice(new BigDecimal("450.00"));
         consoleView.setQuantity(2);
         consoleView = service.saveConsole(consoleView);
 
@@ -247,11 +247,11 @@ public class ServiceLayerTest {
     public void findConsoleByManufacturer() {
         ConsoleViewModel consoleView = new ConsoleViewModel();
 //
-        consoleView.setModel("A");
-        consoleView.setManufacturer("b");
-        consoleView.setMemory_amount("4gb");
-        consoleView.setProcessor("gui");
-        consoleView.setPrice(BigDecimal.valueOf(23.00));
+        consoleView.setModel("X123");
+        consoleView.setManufacturer("microsoft");
+        consoleView.setMemory_amount("16GB");
+        consoleView.setProcessor("AMD");
+        consoleView.setPrice(new BigDecimal("450.00"));
         consoleView.setQuantity(2);
         consoleView = service.saveConsole(consoleView);
 
@@ -264,11 +264,11 @@ public class ServiceLayerTest {
     @Test
     public void saveFindGame() {
         GameViewModel gameView = new GameViewModel();
-        gameView.setTitle("wii");
-        gameView.setErsb_rating("T");
-        gameView.setDescription("jdhewio");
-        gameView.setPrice(BigDecimal.valueOf(45.00));
-        gameView.setStudio("samsung");
+        gameView.setTitle("NBA 2K");
+        gameView.setEsrb_rating("E");
+        gameView.setDescription("everyone");
+        gameView.setPrice(new BigDecimal("59.99"));
+        gameView.setStudio("2K Studios");
         gameView.setQuantity(2);
         gameView = service.saveGame(gameView);
         //get game
@@ -283,11 +283,11 @@ public class ServiceLayerTest {
     public void findGameByStudio() {
         GameViewModel gameView = new GameViewModel();
         gameView.setGame_id(1);
-        gameView.setTitle("wii");
-        gameView.setErsb_rating("T");
-        gameView.setDescription("jdhewio");
-        gameView.setPrice(BigDecimal.valueOf(45.00));
-        gameView.setStudio("samsung");
+        gameView.setTitle("NBA 2K");
+        gameView.setEsrb_rating("E");
+        gameView.setDescription("everyone");
+        gameView.setPrice(new BigDecimal("59.99"));
+        gameView.setStudio("2K Studios");
         gameView.setQuantity(2);
         gameView = service.saveGame(gameView);
         List<GameViewModel> gameFromService = service.findGameByStudio(gameView.getStudio());
@@ -299,14 +299,14 @@ public class ServiceLayerTest {
     public void findGameByErsb_Rating() {
         GameViewModel gameView = new GameViewModel();
         gameView.setGame_id(1);
-        gameView.setTitle("wii");
-        gameView.setErsb_rating("T");
-        gameView.setDescription("jdhewio");
-        gameView.setPrice(BigDecimal.valueOf(45.00));
-        gameView.setStudio("samsung");
+        gameView.setTitle("NBA 2K");
+        gameView.setEsrb_rating("E");
+        gameView.setDescription("everyone");
+        gameView.setPrice(new BigDecimal("59.99"));
+        gameView.setStudio("2K Studios");
         gameView.setQuantity(2);
         gameView = service.saveGame(gameView);
-        List<GameViewModel> gameFromService = service.findGameByEsrbRating(gameView.getErsb_rating());
+        List<GameViewModel> gameFromService = service.findGameByEsrbRating(gameView.getEsrb_rating());
         assertEquals(1,gameFromService.size());
     }
 
@@ -314,11 +314,11 @@ public class ServiceLayerTest {
     public void findGameByTitle() {
         GameViewModel gameView = new GameViewModel();
         gameView.setGame_id(1);
-        gameView.setTitle("wii");
-        gameView.setErsb_rating("T");
-        gameView.setDescription("jdhewio");
-        gameView.setPrice(BigDecimal.valueOf(45.00));
-        gameView.setStudio("samsung");
+        gameView.setTitle("NBA 2K");
+        gameView.setEsrb_rating("E");
+        gameView.setDescription("everyone");
+        gameView.setPrice(new BigDecimal("59.99"));
+        gameView.setStudio("2K Studios");
         gameView.setQuantity(2);
         gameView = service.saveGame(gameView);
         List<GameViewModel> gameFromService = service.findGameByTitle(gameView.getTitle());
@@ -329,15 +329,15 @@ public class ServiceLayerTest {
     public void saveFindTShirt() {
         TShirtViewModel tShirtView = new TShirtViewModel();
 
-        tShirtView.setSize("M");
+        tShirtView.setSize("L");
         tShirtView.setColor("Black");
-        tShirtView.setDescription("hdiwh");
-        tShirtView.setPrice(BigDecimal.valueOf(67.00));
-        tShirtView.setQuantity(6);
+        tShirtView.setDescription("A nice shirt");
+        tShirtView.setPrice(new BigDecimal("34.00"));
+        tShirtView.setQuantity(3);
         tShirtView = service.saveTShirt(tShirtView);
 
-        TShirtViewModel tshirtVM = service.findTShirt(tShirtView.getT_shirt_id());
-        assertEquals(tShirtView,tshirtVM);
+        TShirtViewModel tShirtVM = service.findTShirt(tShirtView.getT_shirt_id());
+        assertEquals(tShirtView,tShirtVM);
 
     }
 
@@ -345,15 +345,15 @@ public class ServiceLayerTest {
     public void findTShirtByColor() {
         TShirtViewModel tShirtView = new TShirtViewModel();
         tShirtView.setT_shirt_id(1);
-        tShirtView.setSize("M");
+        tShirtView.setSize("L");
         tShirtView.setColor("Black");
-        tShirtView.setDescription("hdiwh");
-        tShirtView.setPrice(BigDecimal.valueOf(67.00));
-        tShirtView.setQuantity(6);
+        tShirtView.setDescription("A nice shirt");
+        tShirtView.setPrice(new BigDecimal("34.00"));
+        tShirtView.setQuantity(3);
         tShirtView = service.saveTShirt(tShirtView);
 
-        List<TShirtViewModel> tshirtFromService = service.findTShirtByColor(tShirtView.getColor());
-        assertEquals(1,tshirtFromService.size());
+        List<TShirtViewModel> tShirtFromService = service.findTShirtByColor(tShirtView.getColor());
+        assertEquals(1,tShirtFromService.size());
     }
 
 
@@ -361,15 +361,15 @@ public class ServiceLayerTest {
     public void findTShirtBySize() {
         TShirtViewModel tShirtView = new TShirtViewModel();
         tShirtView.setT_shirt_id(1);
-        tShirtView.setSize("M");
+        tShirtView.setSize("L");
         tShirtView.setColor("Black");
-        tShirtView.setDescription("hdiwh");
-        tShirtView.setPrice(BigDecimal.valueOf(67.00));
-        tShirtView.setQuantity(6);
+        tShirtView.setDescription("A nice shirt");
+        tShirtView.setPrice(new BigDecimal("34.00"));
+        tShirtView.setQuantity(3);
         tShirtView = service.saveTShirt(tShirtView);
 
-        List<TShirtViewModel> tshirtFromService = service.findTShirtBySize(tShirtView.getSize());
-        assertEquals(1,tshirtFromService.size());
+        List<TShirtViewModel> tShirtFromService = service.findTShirtBySize(tShirtView.getSize());
+        assertEquals(1,tShirtFromService.size());
     }
 
     @Test
@@ -377,19 +377,19 @@ public class ServiceLayerTest {
 
         InvoiceViewModel invoiceView = new InvoiceViewModel();
 
-        invoiceView.setName("yasser");
-        invoiceView.setStreet("xyz street");
-        invoiceView.setCity("new york");
-        invoiceView.setState("NY");
-        invoiceView.setZipcode("93829");
-        invoiceView.setItem_type("u");
-        invoiceView.setItem_id(3);
-        invoiceView.setUnit_price(BigDecimal.valueOf(3.00));
-        invoiceView.setQuantity(3);
-        invoiceView.setSubtotal(BigDecimal.valueOf(9.00));
-        invoiceView.setTax(BigDecimal.valueOf(76.00));
-        invoiceView.setProcessing_fee(BigDecimal.valueOf(1.49));
-        invoiceView.setTotal(BigDecimal.valueOf(86.49));
+        invoiceView.setName("invoice");
+        invoiceView.setStreet("123 Main St");
+        invoiceView.setCity("Los Angeles");
+        invoiceView.setState("CA");
+        invoiceView.setZipcode("72194");
+        invoiceView.setItem_type("itemType");
+        invoiceView.setItem_id(2);
+        invoiceView.setUnit_price(new BigDecimal("3.25"));
+        invoiceView.setQuantity(4);
+        invoiceView.setSubtotal(new BigDecimal("35.50"));
+        invoiceView.setTax(new BigDecimal("2.30"));
+        invoiceView.setProcessing_fee(new BigDecimal("4.00"));
+        invoiceView.setTotal(new BigDecimal("62.50"));
 
         invoiceView = service.saveInvoice(invoiceView);
 
