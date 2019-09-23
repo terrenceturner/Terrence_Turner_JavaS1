@@ -23,7 +23,7 @@ public class TShirtDaoJdbcTemplateImpl implements TShirtDao {
     }
 
     //Prepared Statements
-    private static final String INSERT_TSHIRT_SQL = "INSERT INTO t_shirt (size, color, description, price, quantity) VALUES(?, ?, ?, ?, ?, ?)";
+    private static final String INSERT_TSHIRT_SQL = "INSERT INTO t_shirt (size, color, description, price, quantity) VALUES(?, ?, ?, ?, ?)";
 
     private static final String SELECT_TSHIRT_SQL = "SELECT * FROM t_shirt where t_shirt_id = ?";
 
@@ -33,9 +33,9 @@ public class TShirtDaoJdbcTemplateImpl implements TShirtDao {
 
     private static final String UPDATE_TSHIRT_SQL = "UPDATE t_shirt SET size = ?, color = ?, description = ?, price = ?, quantity = ?  where t_shirt_id = ?";
 
-    private static final String GET_TSHIRT_BY_COLOR_SQL = "GET * FROM t_shirt WHERE color = ?";
+    private static final String GET_TSHIRT_BY_COLOR_SQL = "SELECT * FROM t_shirt WHERE color = ?";
 
-    private static final String GET_TSHIRT_BY_SIZE_SQL = "GET * FROM t_shirt WHERE size = ?";
+    private static final String GET_TSHIRT_BY_SIZE_SQL = "SELECT * FROM t_shirt WHERE size = ?";
 
 
     //Method Implementations

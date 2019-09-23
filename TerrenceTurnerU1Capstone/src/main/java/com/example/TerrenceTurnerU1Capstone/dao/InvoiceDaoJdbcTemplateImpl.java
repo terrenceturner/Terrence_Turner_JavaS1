@@ -18,17 +18,17 @@ public class InvoiceDaoJdbcTemplateImpl implements InvoiceDao {
     private JdbcTemplate jdbcTemplate;
 
     //Prepared Statements
-    private static final String INSERT_INVOICE_SQL = "INSERT INTO t_shirt (name, street, city, state, zipcode, item_type, item_id," +
+    private static final String INSERT_INVOICE_SQL = "INSERT INTO invoice (name, street, city, state, zipcode, item_type, item_id," +
             "unit_price, quantity, subtotal, tax, processing_fee, total) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
-    private static final String SELECT_INVOICE_SQL = "SELECT * FROM t_shirt where t_shirt_id = ?";
+    private static final String SELECT_INVOICE_SQL = "SELECT * FROM invoice where invoice_id = ?";
 
-    private static final String SELECT_ALL_INVOICES_SQL = "SELECT * FROM t_shirt";
+    private static final String SELECT_ALL_INVOICES_SQL = "SELECT * FROM invoice";
 
-    private static final String DELETE_INVOICE_SQL = "DELETE FROM t_shirt where t_shirt_id = ?";
+    private static final String DELETE_INVOICE_SQL = "DELETE FROM invoice where invoice_id = ?";
 
-    private static final String UPDATE_INVOICE_SQL = "UPDATE t_shirt SET name = ?, street = ?, city = ?, state = ?, zipcode = ?, item_type = ?, item_id =?," +
-            "unit_price = ?, quantity = ?, subtotal = ?, tax = ?, processing_fee = ?, total = ?  where t_shirt_id = ?";
+    private static final String UPDATE_INVOICE_SQL = "UPDATE invoice SET name = ?, street = ?, city = ?, state = ?, zipcode = ?, item_type = ?, item_id =?," +
+            "unit_price = ?, quantity = ?, subtotal = ?, tax = ?, processing_fee = ?, total = ?  where invoice_id = ?";
 
 
     @Autowired

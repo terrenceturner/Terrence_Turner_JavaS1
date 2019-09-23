@@ -33,11 +33,11 @@ public class GameDaoJdbcTemplateImpl implements GameDao {
 
     private static final String UPDATE_GAME_SQL = "UPDATE game SET title = ?, esrb_rating = ?, description = ?, price = ?, studio = ?, quantity = ?  where game_id = ?";
 
-    private static final String GET_GAME_BY_STUDIO_SQL = "GET * FROM game WHERE studio = ?";
+    private static final String GET_GAME_BY_STUDIO_SQL = "SELECT * FROM game WHERE studio = ?";
 
-    private static final String GET_GAME_BY_ESRB_RATING_SQL = "GET * FROM game WHERE esrb_rating = ?";
+    private static final String GET_GAME_BY_ESRB_RATING_SQL = "SELECT * FROM game WHERE esrb_rating = ?";
 
-    private static final String GET_GAME_BY_TITLE_SQL = "GET * FROM game WHERE title = ?";
+    private static final String GET_GAME_BY_TITLE_SQL = "SELECT * FROM game WHERE title = ?";
 
     //Method Implementations
     @Override

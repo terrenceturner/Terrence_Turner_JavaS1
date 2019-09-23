@@ -9,7 +9,7 @@ servers:
     description: Local dev server
     
 paths:
-  /games:
+  /game:
     post:
       summary: Creates a new game
       description: Adds a new game object to the database
@@ -44,7 +44,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/GameResponse'
 
-  /games/{id}:
+  /game/{game_id}:
     get:
       summary: Get game by id
       description: Searches database for game by id
@@ -132,7 +132,7 @@ paths:
               schema:
                 type: string
                   
-  /games/studio/{studio}:
+  /game/studio/{studio}:
     get:
       summary: Get games by studio
       description: Searches database for list of games by studio
@@ -151,7 +151,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/GameResponse'
 
-  /games/esrb/{esrb_rating}:
+  /game/esrb/{esrb_rating}:
     get:
       summary: Get games by ESRB rating
       description: Searches database for list of games with given ESRB rating
@@ -170,7 +170,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/GameResponse'
 
-  /games/title/{title}:
+  /game/title/{title}:
     get:
       summary: Get games by title
       description: Searches Database for list of games by title
@@ -189,7 +189,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/GameResponse'
 
-  /consoles:
+  /console:
     post:
       summary: Creates a new console
       description: Adds a new console object to the database
@@ -224,7 +224,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/GameResponse'
 
-  /consoles/{id}:
+  /console/{console_id}:
     get:
       summary: Get console by id
       description: Searches database for console by id
@@ -306,7 +306,7 @@ paths:
               schema:
                 type: string
                 
-  /consoles/manufacturer/{manufacturer}:
+  /console/manufacturer/{manufacturer}:
     get:
       summary: Gets consoles by manufacturer
       description: Searches database for list of consoles by manufacturer
@@ -325,7 +325,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/ConsoleResponse'
       
-  /tshirts:
+  /tshirt:
     post:
       summary: Creates a new t-shirt
       description: Adds a new t-shirt object to the database
@@ -360,7 +360,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/GameResponse'
       
-  /tshirts/{id}:
+  /tshirt/{t_shirt_id}:
     get:
       summary: Get t-shirt by id
       description: Searches database for t-shirt by id
@@ -441,7 +441,7 @@ paths:
               schema:
                 type: string
                   
-  /tshirts/color/{color}:
+  /tshirt/color/{color}:
     get:
       summary: Get t-shirts by color
       description: Searches database for list of t-shirts by color
@@ -460,7 +460,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/TshirtResponse'
                 
-  /tshirts/size/{size}:
+  /tshirt/size/{size}:
     get:
       summary: Gets tshirts by size
       description: Searches database for list of tshirts by size
@@ -509,7 +509,7 @@ paths:
               schema:
                 type: string
                 
-  /invoices:
+  /invoice:
     get:
       summary: Gets all invoices
       description: Searches database for list of all invoices
@@ -521,7 +521,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/InvoiceResponse'
                 
-  /invoices/{id}:
+  /invoice/{invoice_id}:
     get:
       summary: Gets invoice by id
       description: Searches database for invoice by id

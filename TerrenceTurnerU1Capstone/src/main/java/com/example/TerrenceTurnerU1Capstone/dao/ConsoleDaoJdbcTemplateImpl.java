@@ -33,7 +33,7 @@ public class ConsoleDaoJdbcTemplateImpl implements ConsoleDao {
 
     private static final String UPDATE_CONSOLE_SQL = "UPDATE console SET model = ?, manufacturer = ?, memory_amount = ?, processor = ?, price = ?, quantity = ? where console_id = ?";
 
-    private static final String GET_CONSOLE_BY_MANUFACTURER_SQL = "GET * FROM invoice WHERE manufacturer = ?";
+    private static final String GET_CONSOLE_BY_MANUFACTURER_SQL = "SELECT * FROM console WHERE manufacturer = ?";
 
     //Method Implementation
     @Override

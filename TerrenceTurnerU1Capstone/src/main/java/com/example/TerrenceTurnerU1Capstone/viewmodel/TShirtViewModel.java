@@ -1,9 +1,9 @@
-package com.example.TerrenceTurnerU1Capstone.dto;
+package com.example.TerrenceTurnerU1Capstone.viewmodel;
 
 import java.math.BigDecimal;
 import java.util.Objects;
 
-public class TShirt {
+public class TShirtViewModel {
 
     //Properties
     private int t_shirt_id;
@@ -62,18 +62,19 @@ public class TShirt {
         this.quantity = quantity;
     }
 
+
     //Equals and HashCodes
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        TShirt t_shirt = (TShirt) o;
-        return t_shirt_id == t_shirt.t_shirt_id &&
-                quantity == t_shirt.quantity &&
-                size.equals(t_shirt.size) &&
-                color.equals(t_shirt.color) &&
-                description.equals(t_shirt.description) &&
-                price.equals(t_shirt.price);
+        TShirtViewModel that = (TShirtViewModel) o;
+        return t_shirt_id == that.t_shirt_id &&
+                quantity == that.quantity &&
+                size.equals(that.size) &&
+                color.equals(that.color) &&
+                description.equals(that.description) &&
+                price.equals(that.price);
     }
 
     @Override
