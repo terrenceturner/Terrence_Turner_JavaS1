@@ -43,6 +43,7 @@ public class GameControllerTest {
 
     }
 
+    @Test
     public void getGameByIdShouldReturnGameWithIdJson() throws Exception{
         GameViewModel game = new GameViewModel();
         game.setTitle("NBA 2K");
@@ -73,11 +74,12 @@ public class GameControllerTest {
 
         // Since findById returns an Optional, we create one. But this time without a value
         // as that would be the expected behavior if we searched for a non-existant id
-        Optional<GameViewModel> returnVal = Optional.empty();
+//        Optional<GameViewModel> returnVal = Optional.empty();
+        GameViewModel returnVal = null;
 
         int idForGameThatDoesNotExist = 100;
 
-        when(service.findGame(idForGameThatDoesNotExist)).thenReturn(returnVal.get());
+        when(service.findGame(idForGameThatDoesNotExist)).thenReturn(returnVal);
 
         this.mockMvc.perform(get("/game" + idForGameThatDoesNotExist))
                 .andDo(print())
@@ -289,7 +291,7 @@ public class GameControllerTest {
 
         String outputJson = mapper.writeValueAsString(gameList2);
 
-        this.mockMvc.perform(get("/game/esrbRating/M/"))
+        this.mockMvc.perform(get("/game/esrbRating/M"))
                 .andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(content().json(outputJson));

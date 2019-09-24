@@ -44,6 +44,7 @@ public class TShirtControllerTest {
 
     }
 
+    @Test
     public void getTShirtByIdShouldReturnTShirtWithIdJson() throws Exception{
         TShirtViewModel tShirt = new TShirtViewModel();
         tShirt.setSize("L");
@@ -73,11 +74,12 @@ public class TShirtControllerTest {
 
         // Since findById returns an Optional, we create one. But this time without a value
         // as that would be the expected behavior if we searched for a non-existant id
-        Optional<TShirtViewModel> returnVal = Optional.empty();
+//        Optional<TShirtViewModel> returnVal = Optional.empty();
+        TShirtViewModel returnVal = null;
 
         int idForTShirtThatDoesNotExist = 100;
 
-        when(service.findTShirt(idForTShirtThatDoesNotExist)).thenReturn(returnVal.get());
+        when(service.findTShirt(idForTShirtThatDoesNotExist)).thenReturn(returnVal);
 
         this.mockMvc.perform(get("/tShirt" + idForTShirtThatDoesNotExist))
                 .andDo(print())

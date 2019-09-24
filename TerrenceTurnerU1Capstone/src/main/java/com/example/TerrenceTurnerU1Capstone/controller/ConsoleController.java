@@ -1,12 +1,15 @@
 package com.example.TerrenceTurnerU1Capstone.controller;
 
+import com.example.TerrenceTurnerU1Capstone.dto.Console;
 import com.example.TerrenceTurnerU1Capstone.service.ServiceLayer;
 import com.example.TerrenceTurnerU1Capstone.viewmodel.ConsoleViewModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class ConsoleController {
@@ -53,7 +56,7 @@ public class ConsoleController {
     //Get Console by Manufacturer
     @RequestMapping(value = "console/manufacturer/{manufacturer}", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
-    public List<ConsoleViewModel> getConsoleByManufacturer(@PathVariable("manufacturer") String manufacturer) {
+    public List<ConsoleViewModel> getConsoleByManufacturer(@PathVariable String manufacturer) {
         return service.findConsoleByManufacturer(manufacturer);
     }
 

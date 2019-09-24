@@ -43,6 +43,7 @@ public class InvoiceControllerTest {
     public void setUp() throws Exception {
     }
 
+    @Test
     public void getInvoiceByIdShouldReturnInvoiceWithIdJson() throws Exception{
         InvoiceViewModel invoice = new InvoiceViewModel();
         invoice.setName("invoice");
@@ -80,11 +81,12 @@ public class InvoiceControllerTest {
 
         // Since findById returns an Optional, we create one. But this time without a value
         // as that would be the expected behavior if we searched for a non-existant id
-        Optional<InvoiceViewModel> returnVal = Optional.empty();
+//        Optional<InvoiceViewModel> returnVal = Optional.empty();
+        InvoiceViewModel returnVal = null;
 
         int idForInvoiceThatDoesNotExist = 100;
 
-        when(service.findInvoice(idForInvoiceThatDoesNotExist)).thenReturn(returnVal.get());
+        when(service.findInvoice(idForInvoiceThatDoesNotExist)).thenReturn(returnVal);
 
         this.mockMvc.perform(get("/invoice" + idForInvoiceThatDoesNotExist))
                 .andDo(print())

@@ -112,9 +112,9 @@ public class ServiceLayerTest {
         doReturn(game).when(gameDao).getGame(1);
         doReturn(updatedGame).when(gameDao).updateGame(updatedGame);
         doReturn(gameList).when(gameDao).getAllGames();
-        doReturn(gameList).when(gameDao).getGameByEsrbRating("E");
-        doReturn(gameList).when(gameDao).getGameByTitle("Halo");
-        doReturn(gameList).when(gameDao).getGameByStudio("2K Studios");
+        doReturn(gameList).when(gameDao).getGameByEsrbRating(game.getEsrb_rating());
+        doReturn(gameList).when(gameDao).getGameByTitle(game.getTitle());
+        doReturn(gameList).when(gameDao).getGameByStudio(game.getStudio());
 
     }
     private void setUpTShirtDaoMock() {
@@ -150,8 +150,8 @@ public class ServiceLayerTest {
         doReturn(tShirt).when(tShirtDao).getTShirt(1);
         doReturn(updatedTShirt).when(tShirtDao).updateTShirt(updatedTShirt);
         doReturn(tShirtList).when(tShirtDao).getAllTShirts();
-        doReturn(tShirtList).when(tShirtDao).getTShirtBySize(("M"));
-        doReturn(tShirtList).when(tShirtDao).getTShirtByColor("Black");
+        doReturn(tShirtList).when(tShirtDao).getTShirtBySize((tShirt.getSize()));
+        doReturn(tShirtList).when(tShirtDao).getTShirtByColor(tShirt.getColor());
     }
 
     private void setUpInvoiceDaoMock(){

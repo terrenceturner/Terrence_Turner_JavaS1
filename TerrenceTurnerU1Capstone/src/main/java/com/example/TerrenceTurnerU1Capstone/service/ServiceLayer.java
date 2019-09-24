@@ -102,7 +102,7 @@ public class ServiceLayer {
     public GameViewModel saveGame(GameViewModel gameViewModel){
         Game game = new Game();
         game.setTitle(gameViewModel.getTitle());
-        game.setEsrb_rating(gameViewModel.getErsb_rating());
+        game.setEsrb_rating(gameViewModel.getEsrb_rating());
         game.setDescription(gameViewModel.getDescription());
         game.setPrice(gameViewModel.getPrice());
         game.setStudio(gameViewModel.getStudio());
@@ -132,7 +132,7 @@ public class ServiceLayer {
         Game game = new Game();
         game.setGame_id(gameViewModel.getGame_id());
         game.setTitle(gameViewModel.getTitle());
-        game.setEsrb_rating(gameViewModel.getErsb_rating());
+        game.setEsrb_rating(gameViewModel.getEsrb_rating());
         game.setDescription(gameViewModel.getDescription());
         game.setPrice(gameViewModel.getPrice());
         game.setStudio(gameViewModel.getStudio());
@@ -209,7 +209,7 @@ public class ServiceLayer {
 
     public List<TShirtViewModel> findAllTshirts() {
         List<TShirtViewModel> tShirtViewModelList = new ArrayList<>();
-        tShirtDao.getAllTShirts().stream().forEach(tshirt -> tShirtViewModelList.add(buildTShirtViewModel(tshirt)));
+        tShirtDao.getAllTShirts().stream().forEach(tShirt -> tShirtViewModelList.add(buildTShirtViewModel(tShirt)));
 
         return tShirtViewModelList;
     }
@@ -266,7 +266,7 @@ public class ServiceLayer {
         invoice.setStreet(invoiceViewModel.getStreet());
         invoice.setCity(invoiceViewModel.getCity());
         if (!(invoiceViewModel.getState().equals(salesTaxRateDao.getSalesTaxRate(invoiceViewModel.getState()).getState()))){
-            throw new IllegalArgumentException("Sorry! Order should have valid state ");
+            throw new IllegalArgumentException("Sorry! Order should have valid a state ");
         }
         invoice.setState(invoiceViewModel.getState());
         invoice.setZipcode(invoiceViewModel.getZipcode());
@@ -278,7 +278,7 @@ public class ServiceLayer {
         }
         invoice.setQuantity(invoiceViewModel.getQuantity());
         switch(invoiceViewModel.getItem_type()){
-            case "consoles":
+            case "console":
                 Console console =  consoleDao.getConsole(invoiceViewModel.getItem_id());
                 if(invoiceViewModel.getQuantity() <= console.getQuantity()){
                     console.setQuantity(console.getQuantity() - invoiceViewModel.getQuantity());
@@ -286,7 +286,7 @@ public class ServiceLayer {
                 } else {
                     throw new IllegalArgumentException("Sorry! Not enough consoles in stock");
                 }
-            case "games":
+            case "game":
                 Game game =  gameDao.getGame(invoiceViewModel.getItem_id());
                 if(invoiceViewModel.getQuantity() <= game.getQuantity()){
                     game.setQuantity(game.getQuantity() - invoiceViewModel.getQuantity());
@@ -295,10 +295,10 @@ public class ServiceLayer {
                     throw new IllegalArgumentException("Sorry! Not enough games in stock");
                 }
             case "tshirt":
-                TShirt tshirt =  tShirtDao.getTShirt(invoiceViewModel.getItem_id());
-                if(invoiceViewModel.getQuantity() <= tshirt.getQuantity()){
-                    tshirt.setQuantity(tshirt.getQuantity() - invoiceViewModel.getQuantity());
-                    tShirtDao.updateTShirt(tshirt);
+                TShirt tShirt =  tShirtDao.getTShirt(invoiceViewModel.getItem_id());
+                if(invoiceViewModel.getQuantity() <= tShirt.getQuantity()){
+                    tShirt.setQuantity(tShirt.getQuantity() - invoiceViewModel.getQuantity());
+                    tShirtDao.updateTShirt(tShirt);
                 } else {
                     throw new IllegalArgumentException("Sorry! Not enough tshirts in stock");
                 }
@@ -308,7 +308,7 @@ public class ServiceLayer {
 
         BigDecimal processingFee = processingFeeDao.getProcessingFee(invoiceViewModel.getItem_type()).getFee();
         if (invoiceViewModel.getQuantity() > 10 ) {
-            invoice.setProcessing_fee(processingFee.add(new BigDecimal(15.49)));
+            invoice.setProcessing_fee(processingFee.add(new BigDecimal("15.50")));
         }else{
             invoice.setProcessing_fee(processingFee);
         }
@@ -366,7 +366,7 @@ public class ServiceLayer {
 
         GameViewModel gameView = new GameViewModel();
         gameView.setGame_id(game.getGame_id());
-        gameView.setErsb_rating(game.getEsrb_rating());
+        gameView.setEsrb_rating(game.getEsrb_rating());
         gameView.setDescription(game.getDescription());
         gameView.setPrice(game.getPrice());
         gameView.setStudio(game.getStudio());

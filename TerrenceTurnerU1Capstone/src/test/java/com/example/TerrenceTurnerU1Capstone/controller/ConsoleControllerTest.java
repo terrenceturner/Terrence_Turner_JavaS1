@@ -15,6 +15,7 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -44,6 +45,7 @@ public class ConsoleControllerTest {
 
     }
 
+    @Test
     public void getConsoleByIdShouldReturnConsoleWithIdJson() throws Exception{
         ConsoleViewModel console = new ConsoleViewModel();
         console.setConsole_id(1);
@@ -70,13 +72,14 @@ public class ConsoleControllerTest {
 
         // Since findById returns an Optional, we create one. But this time without a value
         // as that would be the expected behavior if we searched for a non-existant id
-        Optional<ConsoleViewModel> returnVal = Optional.empty();
+//        Optional<ConsoleViewModel> returnVal = Optional.empty();
+        ConsoleViewModel returnVal = null;
 
         int idForConsoleThatDoesNotExist = 100;
 
-        when(service.findConsole(idForConsoleThatDoesNotExist)).thenReturn(returnVal.get());
+        when(service.findConsole(idForConsoleThatDoesNotExist)).thenReturn(returnVal);
 
-        this.mockMvc.perform(get("/console" + idForConsoleThatDoesNotExist))
+        this.mockMvc.perform(get("/console/" + idForConsoleThatDoesNotExist))
                 .andDo(print())
                 .andExpect(status().isNotFound());
     }
@@ -109,7 +112,7 @@ public class ConsoleControllerTest {
 
         when(service.saveConsole(inputConsole)).thenReturn(outputConsole);
 
-        this.mockMvc.perform(post("/console").content(inputJson).contentType(MediaType.APPLICATION_JSON))
+        this.mockMvc.perform(post("/console/").content(inputJson).contentType(MediaType.APPLICATION_JSON))
                 .andDo(print())
                 .andExpect(status().isCreated())
                 .andExpect(content().json(outputJson));
@@ -130,7 +133,7 @@ public class ConsoleControllerTest {
         ConsoleViewModel console2 = new ConsoleViewModel();
         console2.setModel("SSX123");
         console2.setManufacturer("sony");
-        console2.setMemory_amount("1GB");
+        console2.setMemory_amount("128GB");
         console2.setProcessor("ROX");
         console2.setPrice(new BigDecimal("500.00"));
         console2.setQuantity(9);
@@ -150,7 +153,7 @@ public class ConsoleControllerTest {
         // listChecker.add(new Console(10, "Donald Duck", 2));
         String outputJson = mapper.writeValueAsString(listChecker);
 
-        this.mockMvc.perform(get("/console"))
+        this.mockMvc.perform(get("/console/"))
                 .andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(content().json(outputJson));
@@ -158,7 +161,7 @@ public class ConsoleControllerTest {
 
 
     @Test
-    public void getConsoleByManufacturer() {
+    public void getConsoleByManufacturer() throws Exception {
 
         ConsoleViewModel console = new ConsoleViewModel();
 
@@ -216,7 +219,7 @@ public class ConsoleControllerTest {
         String inputJson = mapper.writeValueAsString(console);
         String outputJson = mapper.writeValueAsString(console);
 
-        this.mockMvc.perform(put("/console" + console.getConsole_id())
+        this.mockMvc.perform(put("/console/" + console.getConsole_id())
                 .content(inputJson)
                 .contentType(MediaType.APPLICATION_JSON))
                 .andDo(print()).andExpect(status().isOk())
