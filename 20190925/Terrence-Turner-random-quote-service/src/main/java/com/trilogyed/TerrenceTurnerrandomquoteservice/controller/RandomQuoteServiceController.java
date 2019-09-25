@@ -1,12 +1,10 @@
 package com.trilogyed.TerrenceTurnerrandomquoteservice.controller;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -17,6 +15,7 @@ public class RandomQuoteServiceController {
 
 //    @Value("${quote}")
     private List<String> quoteList = new ArrayList<>();{
+        
             {
                 quoteList.add("To me programming is more than an important practical art. It is also a gigantic undertaking in the foundations of knowledge. - Grace Hopper");
                 quoteList.add("Programs must be written for people to read, and only incidentally for machines to execute. - Hal Ableson");
