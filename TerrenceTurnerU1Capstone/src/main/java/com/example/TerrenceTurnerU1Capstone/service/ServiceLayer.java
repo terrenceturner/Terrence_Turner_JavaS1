@@ -265,7 +265,7 @@ public class ServiceLayer {
         invoice.setName(invoiceViewModel.getName());
         invoice.setStreet(invoiceViewModel.getStreet());
         invoice.setCity(invoiceViewModel.getCity());
-        if (!(invoiceViewModel.getState().equals(salesTaxRateDao.getSalesTaxRate(invoiceViewModel.getState()).getState()))){
+        if (!(invoiceViewModel.getState().equals(salesTaxRateDao.getSalesTaxRate(invoiceViewModel.getState()).getRate()))){
             throw new IllegalArgumentException("Sorry! Order should have valid a state ");
         }
         invoice.setState(invoiceViewModel.getState());

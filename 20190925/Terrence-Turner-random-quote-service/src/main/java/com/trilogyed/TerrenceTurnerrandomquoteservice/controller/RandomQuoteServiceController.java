@@ -15,7 +15,7 @@ public class RandomQuoteServiceController {
 
 //    @Value("${quote}")
     private List<String> quoteList = new ArrayList<>();{
-        
+
             {
                 quoteList.add("To me programming is more than an important practical art. It is also a gigantic undertaking in the foundations of knowledge. - Grace Hopper");
                 quoteList.add("Programs must be written for people to read, and only incidentally for machines to execute. - Hal Ableson");
@@ -34,8 +34,14 @@ public class RandomQuoteServiceController {
 
         return quoteList.get(random.nextInt(8));
 
-
-
     }
+
+//    @RequestMapping(value = "/answerme", method = RequestMethod.GET)
+//    public String quoteCloud() {
+//
+//        Random random = new Random();
+//        // select and return a random answer
+//        return quoteList.get(random.nextInt(8));
+//    }
 
 }
