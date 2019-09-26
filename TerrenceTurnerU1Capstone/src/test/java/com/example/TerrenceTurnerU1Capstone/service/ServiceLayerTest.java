@@ -246,7 +246,7 @@ public class ServiceLayerTest {
     @Test
     public void findConsoleByManufacturer() {
         ConsoleViewModel consoleView = new ConsoleViewModel();
-//
+
         consoleView.setModel("X123");
         consoleView.setManufacturer("microsoft");
         consoleView.setMemory_amount("16GB");
