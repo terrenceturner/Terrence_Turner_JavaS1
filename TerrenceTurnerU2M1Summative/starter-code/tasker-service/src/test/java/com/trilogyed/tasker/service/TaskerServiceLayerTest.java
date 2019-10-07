@@ -65,18 +65,8 @@ public class TaskerServiceLayerTest {
 
     @Test
     public void fetchTask() {
-//        TaskViewModel tvm = new TaskViewModel();
-//        tvm.setDescription("description");
-//        tvm.setCreateDate(LocalDate.of(2019, 8, 22));
-//        tvm.setDueDate(LocalDate.of(2019,9,19));
-//        tvm.setCategory("category");
-//
-//        tvm = service.newTask(tvm);
-//        TaskViewModel taskFromService = service.fetchTask(tvm.getId());
-//        assertEquals(tvm, taskFromService);
 
         TaskViewModel fromService = service.fetchTask(1);
-
         fromService.setAdvertisement(client.getAd());
 
         assertEquals(dao.getTask(1).getDescription(), fromService.getDescription());
