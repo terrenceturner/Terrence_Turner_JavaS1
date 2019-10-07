@@ -1,5 +1,9 @@
 package com.company.NestingLoops;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class NestingLoops {
 
     public static void main( String[] args ) {
@@ -29,5 +33,15 @@ public class NestingLoops {
 
         System.out.println("\n");
 
+        Rectangle rectangle = new Rectangle();
+        Square square = new Square();
+        Triangle triangle = new Triangle();
+
+        List<Shape> shapes = new ArrayList<>();
+        shapes.add(rectangle);
+        shapes.add(triangle);
+        shapes.add(square);
+
+        shapes.stream().forEach(shape -> {(shape).getArea();});
     }
 }

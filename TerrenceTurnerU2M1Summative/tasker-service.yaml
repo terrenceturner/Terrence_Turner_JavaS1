@@ -1,0 +1,180 @@
+openapi: 3.0.0
+info:
+  version: 0.0.1
+  title: Tasker Service API
+  description: Web service modify and access task within the database
+  
+servers: 
+  - url: http://localhost:8080
+    description: Local dev server
+    
+paths:
+  /tasks:
+    post:
+      summary: Create a new task
+      description: Adds a new task object to database
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TaskPost'
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TaskResponse'
+        '422':
+          description: Unprocessable Entity
+          content:
+            application/json:
+              schema:
+                type: string
+        
+    get:
+      summary: Get all tasks
+      description: Searches database for a list of tasks
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TaskResponse'
+
+  /tasks/{id}:
+    get:
+      summary: Gets task by id
+      description: Searches Database for task by id
+      parameters: 
+        - name: id
+          in: path
+          required: true
+          description: Task id
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TaskResponse'
+        '422':
+          description: Unprocessable Entity
+          content:
+            application/json:
+              schema:
+                type: string
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                type: string
+                
+    put:
+      summary: Update task by id
+      description: Updates task by id 
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Task id
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TaskUpdate'
+      responses:
+        '204':
+          description: No Content
+        '422':
+          description: Unprocessable Entity
+          content:
+            application/json:
+              schema:
+                type: string
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                type: string
+                
+    delete:
+      summary: Delete task by id
+      description: Deletes task by id 
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Task id
+          schema:
+            type: string
+      responses:
+        '204':
+          description: No Content
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                type: string
+        '422':
+          description: Unprocessable entity
+          content: 
+            application/json:
+              schema:
+                type: string
+                  
+  /tasks/category/{category}:
+    get:
+      summary: Get tasks by category
+      description: Searches Database for tasks by category
+      parameters: 
+        - name: category
+          in: path
+          required: true
+          description: Task category
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TaskResponse'
+        '422':
+          description: Unprocessable Entity
+          content:
+            application/json:
+              schema:
+                type: string
+        '404':
+          description: Not found
+          content:
+            application/json:
+              schema:
+                type: string
+  
+  
+components:
+  schemas:
+    Task:
+      properties:
+        id:
+          type: integer
+        description:
+          type: string
+        createDate:
+          type: object
+        dueDate:
+          type: object
+        category:
+          type: string
