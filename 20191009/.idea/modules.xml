@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/20191009.iml" filepath="$PROJECT_DIR$/.idea/20191009.iml" />
+      <module fileurl="file://$PROJECT_DIR$/motoinventory-service-system/starter-code/moto-inventory-secure/moto-inventory-secure.iml" filepath="$PROJECT_DIR$/motoinventory-service-system/starter-code/moto-inventory-secure/moto-inventory-secure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/motoinventory-service-system/starter-code/moto-inventory-service/moto-inventory-service.iml" filepath="$PROJECT_DIR$/motoinventory-service-system/starter-code/moto-inventory-service/moto-inventory-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/secure-app/secure-app.iml" filepath="$PROJECT_DIR$/secure-app/secure-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/motoinventory-service-system/starter-code/vin-lookup/vin-lookup.iml" filepath="$PROJECT_DIR$/motoinventory-service-system/starter-code/vin-lookup/vin-lookup.iml" />
+    </modules>
+  </component>
+</project>
