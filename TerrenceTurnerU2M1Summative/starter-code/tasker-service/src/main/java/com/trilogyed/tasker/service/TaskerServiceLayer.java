@@ -65,7 +65,7 @@ public class TaskerServiceLayer {
         task.setCategory(taskViewModel.getCategory());
 
         task = dao.createTask(task);
-        taskViewModel.setId(1);
+        taskViewModel.setId(task.getId());
 
         // TODO - get ad from Adserver and put in taskViewModel
 

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/starter-code/adserver-service/adserver-service.iml" filepath="$PROJECT_DIR$/starter-code/adserver-service/adserver-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/starter-code/cloud-config-service/cloud-config-service.iml" filepath="$PROJECT_DIR$/starter-code/cloud-config-service/cloud-config-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/starter-code/eureka-service-registry/eureka-service-registry.iml" filepath="$PROJECT_DIR$/starter-code/eureka-service-registry/eureka-service-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-code/tasker-security/tasker-security.iml" filepath="$PROJECT_DIR$/starter-code/tasker-security/tasker-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/starter-code/tasker-service/tasker-service.iml" filepath="$PROJECT_DIR$/starter-code/tasker-service/tasker-service.iml" />
     </modules>
   </component>

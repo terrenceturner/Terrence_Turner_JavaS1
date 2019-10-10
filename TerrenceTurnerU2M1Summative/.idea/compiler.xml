@@ -9,6 +9,7 @@
         <module name="tasker-service" />
         <module name="adserver-service" />
         <module name="eureka-service-registry" />
+        <module name="tasker-security" />
         <module name="cloud-config-service" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="adserver-service" target="1.8" />
       <module name="cloud-config-service" target="1.8" />
       <module name="eureka-service-registry" target="1.8" />
+      <module name="tasker-security" target="1.8" />
       <module name="tasker-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +26,7 @@
       <module name="adserver-service" options="-parameters" />
       <module name="cloud-config-service" options="-parameters" />
       <module name="eureka-service-registry" options="-parameters" />
+      <module name="tasker-security" options="-parameters" />
       <module name="tasker-service" options="-parameters" />
     </option>
   </component>
