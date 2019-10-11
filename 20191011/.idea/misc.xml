@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/hello-pws/pom.xml" />
+        <option value="$PROJECT_DIR$/rsvp-deploy-tutorial/starter-code/rsvp-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pong_matcher_spring/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

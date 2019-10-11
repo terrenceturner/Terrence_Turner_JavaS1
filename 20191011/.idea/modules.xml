@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/20191011.iml" filepath="$PROJECT_DIR$/.idea/20191011.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-pws/hello-pws.iml" filepath="$PROJECT_DIR$/hello-pws/hello-pws.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pong_matcher_spring/pong-matcher-spring.iml" filepath="$PROJECT_DIR$/pong_matcher_spring/pong-matcher-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rsvp-deploy-tutorial/starter-code/rsvp-service/rsvp-service.iml" filepath="$PROJECT_DIR$/rsvp-deploy-tutorial/starter-code/rsvp-service/rsvp-service.iml" />
+    </modules>
+  </component>
+</project>
