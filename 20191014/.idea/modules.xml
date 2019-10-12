@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/20191014.iml" filepath="$PROJECT_DIR$/.idea/20191014.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solutions/authorization-service/authorization-service.iml" filepath="$PROJECT_DIR$/solutions/authorization-service/authorization-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solutions/day-converter-service/day-converter-service.iml" filepath="$PROJECT_DIR$/solutions/day-converter-service/day-converter-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solutions/hello-service/hello-service.iml" filepath="$PROJECT_DIR$/solutions/hello-service/hello-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solutions/month-converter-service/month-converter-service.iml" filepath="$PROJECT_DIR$/solutions/month-converter-service/month-converter-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solutions/rest-calculator-service/rest-calculator-service.iml" filepath="$PROJECT_DIR$/solutions/rest-calculator-service/rest-calculator-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rsvp-deploy-tutorial/starter-code/rsvp-service/rsvp-service.iml" filepath="$PROJECT_DIR$/rsvp-deploy-tutorial/starter-code/rsvp-service/rsvp-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solutions/weather-service/weather-service.iml" filepath="$PROJECT_DIR$/solutions/weather-service/weather-service.iml" />
+    </modules>
+  </component>
+</project>

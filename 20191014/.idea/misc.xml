@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/rsvp-deploy-tutorial/starter-code/rsvp-service/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/authorization-service/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/day-converter-service/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/hello-service/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/month-converter-service/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/rest-calculator-service/pom.xml" />
+        <option value="$PROJECT_DIR$/solutions/weather-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

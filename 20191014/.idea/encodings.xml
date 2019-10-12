@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/rsvp-deploy-tutorial/starter-code/rsvp-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/authorization-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/day-converter-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/hello-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/month-converter-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/rest-calculator-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solutions/weather-service" charset="UTF-8" />
+  </component>
+</project>

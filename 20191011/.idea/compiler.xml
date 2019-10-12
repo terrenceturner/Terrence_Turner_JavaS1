@@ -20,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hello-pws" options="-parameters" />
+      <module name="pong-matcher-spring" options="-parameters" />
       <module name="rsvp-service" options="-parameters" />
     </option>
   </component>
