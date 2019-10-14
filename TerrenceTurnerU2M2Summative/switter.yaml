@@ -1,0 +1,208 @@
+openapi: 3.0.0
+info:
+  title: Stwitter Project
+  description:
+    Database-backed REST web microservice that enables users to create/read/update/delete posts and comments.
+  version: 0.0.1
+servers:
+  - url: 'http://localhost:8889'
+    description: Local dev server
+paths:
+  /comment:
+    post:
+      summary: Creates a new comment with the given information
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Comment'
+      responses:
+        '201':
+          description: A comment object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Comment'
+        '400':
+          description: Invalid request syntax.
+    put:
+      summary: Updates comment with the given ID.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Comment'
+      responses:
+        '200':
+          description: Comment successfully updated.
+        '400':
+          description: Invalid request syntax.
+    get:
+      summary: Retrieves all the Comments.
+      responses:
+        '200':
+          description: a list of Comments.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Comment'
+  /comment/{id}:
+    get:
+      summary: Retrieves comment with the given ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: ID of the comment you would like to retrieve.
+          schema:
+            type: integer
+            format: int64
+            minimum: 1
+      responses:
+        '200':
+          description: Task object matching given ID.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Comment'
+    delete:
+      summary: Deletes comment with the given ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: ID of the comment you would like to delete.
+          schema:
+            type: integer
+            format: int64
+            minimum: 1
+      responses:
+        '200':
+          description: Comment successfully deleted.
+  /post:
+    post:
+      summary: Creates a new post entry with the given information
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Post'
+      responses:
+        '201':
+          description: A post object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Post'
+        '400':
+          description: Invalid request syntax.
+    put:
+      summary: Updated the entry for the post with the given ID.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Post'
+      responses:
+        '200':
+          description: Post successfully updated.
+        '400':
+          description: Invalid request syntax.
+    get:
+      summary: Retrieves all the Posts.
+      responses:
+        '200':
+          description: a list of Posts.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Post'
+  /post/{id}:
+    get:
+      summary: Retrieves post with the given ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: ID of the post you would like to retrieve.
+          schema:
+            type: integer
+            format: int64
+            minimum: 1
+      responses:
+        '200':
+          description: Post object matching given ID.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Post'
+    delete:
+      summary: Deletes post with the given ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: ID of the post you would like to delete.
+          schema:
+            type: integer
+            format: int64
+            minimum: 1
+      responses:
+        '200':
+          description: Post successfully deleted.
+  /post/user/{posterName}:
+    get:
+      summary: Retrieves posts from poster name
+      parameters: 
+        - name: posterName
+          in: path
+          required: true
+          description: Name of the poster you would like to retrieve
+          schema:
+            type: integer
+            format: int64
+            minimum: 1
+      responses:
+        '200':
+          description: Post object matching given Poster name
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Post'
+components:
+  schemas:
+    Comment:
+      properties:
+        id:
+          type: integer
+        postId:
+          type: integer
+        createDate:
+          type: string
+        commenterName:
+          type: string
+        comment:
+          type: string
+      required:
+        - postId
+        - createDate
+        - commenterName
+        - comment
+    Post:
+      properties:
+        id:
+          type: integer
+        postDate:
+          type: string
+        posterName:
+          type: string
+        post:
+          type: string
+      required:
+        - postDate
+        - posterName
+        - post

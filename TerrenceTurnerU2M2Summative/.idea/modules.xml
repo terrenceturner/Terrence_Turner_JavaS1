@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/TerrenceTurnerU2M2Summative.iml" filepath="$PROJECT_DIR$/.idea/TerrenceTurnerU2M2Summative.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-code/cloud-config-service/cloud-config-service.iml" filepath="$PROJECT_DIR$/starter-code/cloud-config-service/cloud-config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-code/comment-queue-consumer/comment-queue-consumer.iml" filepath="$PROJECT_DIR$/starter-code/comment-queue-consumer/comment-queue-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-code/comment-service/comment-service.iml" filepath="$PROJECT_DIR$/starter-code/comment-service/comment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-code/eureka-service-registry/eureka-service-registry.iml" filepath="$PROJECT_DIR$/starter-code/eureka-service-registry/eureka-service-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-code/post-service/post-service.iml" filepath="$PROJECT_DIR$/starter-code/post-service/post-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-code/stwitter-service/stwitter-service.iml" filepath="$PROJECT_DIR$/starter-code/stwitter-service/stwitter-service.iml" />
+    </modules>
+  </component>
+</project>
