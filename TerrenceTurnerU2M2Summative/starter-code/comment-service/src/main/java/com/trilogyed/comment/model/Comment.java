@@ -1,13 +1,18 @@
 package com.trilogyed.comment.model;
 
+import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 import java.util.Objects;
 
 public class Comment {
 
+    @NotNull
     private int commentId;
+    @NotNull
     private int postId;
+    @NotNull
     private LocalDate createDate;
+    @NotNull
     private String commenterName;
     private String comment;
 
