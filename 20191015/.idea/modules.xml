@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/20191015.iml" filepath="$PROJECT_DIR$/.idea/20191015.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circuit-breaker-bookstore/circuit-breaker-bookstore.iml" filepath="$PROJECT_DIR$/circuit-breaker-bookstore/circuit-breaker-bookstore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circuit-breaker-reading/circuit-breaker-reading.iml" filepath="$PROJECT_DIR$/circuit-breaker-reading/circuit-breaker-reading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-consumer/rest-consumer.iml" filepath="$PROJECT_DIR$/rest-consumer/rest-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-producer/rest-producer.iml" filepath="$PROJECT_DIR$/rest-producer/rest-producer.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="circuit-breaker-reading" />
+        <module name="rest-consumer" />
+        <module name="rest-producer" />
+        <module name="circuit-breaker-bookstore" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="circuit-breaker-bookstore" target="1.8" />
+      <module name="circuit-breaker-reading" target="1.8" />
+      <module name="rest-consumer" target="1.8" />
+      <module name="rest-producer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="circuit-breaker-bookstore" options="-parameters" />
+      <module name="circuit-breaker-reading" options="-parameters" />
+      <module name="rest-consumer" options="-parameters" />
+      <module name="rest-producer" options="-parameters" />
+    </option>
+  </component>
+</project>
